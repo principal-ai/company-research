@@ -83,6 +83,32 @@ first. When a doc genuinely belongs to two subjects, pick one home and link from
 the other (same single-home instinct as facts). A short `README.md` per folder
 saying what belongs there keeps the taxonomy legible as it grows.
 
+### Categorize by domain, never by argument
+A folder should answer *"what is this a fact about?"* (its neutral subject or
+source) — never *"what point does this support?"* A `market/funding/` folder is
+fine; a `market/why-we-win/` folder is not, because the grouping itself is a
+claim, and claims belong in **trails**, not the filesystem. Same test as keeping
+facts and spin separable: if naming a folder requires taking a side, that
+structure is a trail wearing a folder costume. Stay flat and let trails impose
+the thematic grouping on demand.
+
+### Source-heavy folders: one doc per source, one point per anchor
+Some folders (notably `market/`) are mostly **external evidence** — surveys,
+reports, incidents. There, the natural unit is **one doc per source/artifact**
+(`market/stack-overflow-survey-2025.md`), not one doc per claim. A single source
+usually makes several points; give each point its own stable `##` heading so a
+trail marker can land on exactly one finding
+(`…survey-2025.md#trust-declining`) without the others coming along. The doc is
+the source's one canonical home; the **anchors** are the pointable facts. This is
+what lets these folders stay flat — anchors give you finer structure than folders
+would, so you don't need theme subfolders to organize evidence. Keep each heading
+a neutral fact ("46% distrust AI output accuracy"), not a framed argument; the
+framing is the trail's job. Put the `as_of` and `sources:` at the doc level (the
+artifact's date), and any specific figure gets an inline cite next to its claim.
+A source whose points span several themes just lives at the folder root,
+uncategorized — trails reach its anchors from anywhere regardless of where the
+file sits.
+
 ## A light frontmatter starting point (optional)
 
 Not required, not validated — a convenient hook for the source/freshness habit

@@ -39,9 +39,11 @@ Don't fire when:
    date, funding, traction claims, and current features. Prefer primary sources
    (vendor site/docs, press releases) and capture URLs + dates. Do not assert
    from memory — the whole value is dated, sourced facts.
-2. **Pick the slug + path.** `competitors/<slug>.md` (lowercase-kebab of
-   the product, e.g. `cursor.md`, `github-copilot.md`). This resolves the
-   dangling link the `index.md` backlog already has for it.
+2. **Pick the slug + path, and the shape.** Default to a flat
+   `competitors/<slug>.md` (lowercase-kebab, e.g. `github.md`). If the competitor
+   has **2+ substantial products** that move independently, use the **folder
+   shape** instead (see "One doc vs. a folder" below). Either resolves the
+   dangling link the `index.md` backlog has for it.
 3. **Fill the template** (below) with neutral facts only.
 4. **Competitive surface.** Flag *which* of the competitor's features fall in
    Principal's domain (collaboration, understanding, context). Flag the overlap;
@@ -56,6 +58,41 @@ Don't fire when:
 To **log an update** on an existing doc: append a dated entry to `## Updates`
 (newest first), and if it changes a core fact, fold it into the relevant section
 above and bump `as_of`. Never edit past Updates entries.
+
+## One doc vs. a folder (multi-product competitors)
+
+Same discipline as the rest of the KB: **anchors before folders.** Default to one
+flat doc per competitor, with each product a `##` section. Promote to a folder
+**only when a single doc strains** — i.e. the competitor has 2+ substantial
+products with their own features, pricing, and release cadence (e.g. Cursor →
+editor + Graphite + Origin; Sourcegraph → Cody + Code Search).
+
+Do **not** group competitors by the *threat* they pose (e.g. a
+`github-replacers/` folder) — that grouping is an argument, so it's a **trail**,
+not a folder. Categorize by entity only.
+
+Folder shape:
+
+```
+competitors/<slug>/
+  index.md      type: competitor — the COMPANY: overview, funding, strategy,
+                  + a "Products (this folder)" list linking each product doc.
+  <product>.md  type: competitor — ONE product: its own Overview / Features /
+                  Competitive surface / Updates. Links back to index.md.
+```
+
+Rules for the folder shape:
+
+- **Split entity from offerings.** Company-level facts (funding, positioning,
+  strategy) live in `index.md`; product-level facts live in the product docs. One
+  concern per doc still holds.
+- **One home per fact.** A cross-product fact (e.g. a company-wide pricing change,
+  or a market signal) lives in its one canonical home and is **linked**, not
+  restated — including links out to `market/*` where the fact is a market signal.
+- **Each product doc is independently pointable** so a trail marker can target
+  `competitors/<slug>/<product>.md#<feature>` precisely.
+- Move the whole folder's entry into `index.md` "Has a doc" with the company link
+  plus inline links to each product doc.
 
 ## The template
 
