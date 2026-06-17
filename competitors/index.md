@@ -21,6 +21,7 @@ single-product competitor stays a **flat doc**. See `author-competitor-doc`.
 
 - [Cursor / Anysphere](cursor/index.md) — *folder*: [editor](cursor/editor.md), [Graphite](cursor/graphite.md), [Origin](cursor/origin.md).
 - [GitHub (Microsoft)](github.md) — the incumbent code platform + Copilot.
+- [CodeLayer / HumanLayer](humanlayer.md) — agent-orchestration "AI IDE" on Claude Code; structured human-in-the-loop workflows.
 
 ## Competitor candidates — to write
 
