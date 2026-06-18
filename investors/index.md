@@ -16,7 +16,7 @@ bundles. A dangling link = an investor we intend to research but haven't yet.
 
 ## Has a doc
 
-_(none yet)_
+- [Restive Ventures](restive-ventures.md) — early-stage fintech VC, SF; pre-seed/seed; AI apps & infra for financial services. Contact: Ben Glenney (Associate).
 
 ## Backlog — investors to research
 
