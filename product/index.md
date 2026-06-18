@@ -16,12 +16,13 @@ inside them.
 
 ## Has a doc
 
-_(none yet)_
+- [overview.md](overview.md) — what Principal AI / Code Trails is, in one doc.
+- [code-trails.md](code-trails.md) — the trail primitive: markers pinned to file + line, agent-drafted / human-curated / code-grounded.
 
 ## Backlog — concepts to write
 
-- [ ] `overview.md` — what Principal AI / Code Trails is, in one doc.
-- [ ] `trails.md` — the trail primitive: the answer is the path.
 - [ ] `okf-substrate.md` — OKF as the pointable fact substrate beneath trails.
-- [ ] `code-trails.md` — trails over code (markers pinned to file + line).
+- [ ] `trail-artifact.md` — a finished trail as a persisted, machine-readable reasoning chain (act-two pivot).
+- [ ] `otel-trails.md` — trails bind to OTEL; markers → instrumentation; investigations ride the trail.
+- [ ] `otel-contracts.md` — contract validation enforces telemetry conforms.
 - [ ] _(add capabilities and design decisions as they're documented)_
