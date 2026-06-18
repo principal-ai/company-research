@@ -18,6 +18,7 @@ inside them.
 
 - [overview.md](overview.md) — what Principal AI / Code Trails is, in one doc.
 - [code-trails.md](code-trails.md) — the trail primitive: markers pinned to file + line, agent-drafted / human-curated / code-grounded.
+- [collaboration.md](collaboration.md) — sharing/publishing, anchored feedback, topics, and review flows around trails.
 
 ## Backlog — concepts to write
 
