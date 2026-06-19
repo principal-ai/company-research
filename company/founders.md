@@ -1,0 +1,84 @@
+---
+type: company
+title: Founders & founding story
+description: How Principal AI started — three founders who met at Tech Week — who they are, the company's public presence, and the product vision they're building toward.
+volatility: evergreen
+as_of: 2026-06-19
+sources:
+  - Founders (Fernando Ramirez), direct, 2026-06-19
+  - https://github.com/principal-ai
+  - https://github.com/principal-ade
+---
+
+# Founders & founding story
+
+> Evergreen narrative. The founding story doesn't rot; the *people* facts (roles,
+> bios) and *company* facts (handles, entity) below can move — those carry their
+> own `as_of`. The "why this team wins" pitch is a **trail** across this doc and
+> [`product/`](../product/index.md), not prose baked in here.
+
+## How it started
+
+Principal AI began after **Julie Allen**, **Michael Flannery**, and **Fernando
+Ramirez** met at **Tech Week in San Francisco, October 2025**. The three teamed
+up around a shared conviction: as AI agents write more of the code, the scarce
+thing becomes *intent you can trust* — and that conviction became **Code Trails**
+(see [`product/overview.md`](../product/overview.md)).
+
+From there the team took the idea onto the conference circuit: **Tech Week in
+Austin** (end of October 2025), then **AI Native Dev** and the **AI Engineer
+Summit** (November 2025).
+
+## The founders
+
+Three co-founders. _(Individual roles/titles and prior-experience bios are
+to-confirm — not stated here rather than guessed; see the open items below.)_
+
+| Founder | LinkedIn | Other |
+| --- | --- | --- |
+| **Fernando Ramirez** | [in/fernandoramirez-ai](https://www.linkedin.com/in/fernandoramirez-ai/) | GitHub [SquallLeonhart13](https://github.com/SquallLeonhart13) ("Building Quality Software"); X [@Principal_ADE](https://x.com/Principal_ADE) |
+| **Michael Flannery** | [in/michaelflannery25](https://www.linkedin.com/in/michaelflannery25/) | — |
+| **Julie Allen** | [in/flanneryallen](https://www.linkedin.com/in/flanneryallen/) | — |
+
+## The company
+
+**Principal AI** (also presenting as **Principal ADE**) is the **maker of Code
+Trails**, positioned publicly as *"Frame.io for code collaboration."*
+
+The work ships across two active GitHub organizations — the product (File City,
+the Alexandria libraries, the Principal cloud/MCP bridge) and a set of themed UI
+panels and editor components.
+
+| Channel | Link |
+| --- | --- |
+| Website | <https://principal-ade.com> · app: <https://app.principal-ade.com> |
+| GitHub (product) | <https://github.com/principal-ai> · <https://github.com/principal-ade> |
+| LinkedIn (company) | <https://www.linkedin.com/company/principal-ade/> |
+| X (company) | [@Principal_AI_](https://x.com/Principal_AI_) |
+| X (File City tours) | [@FileCityAI](https://x.com/FileCityAI) |
+| X (Fernando) | [@Principal_ADE](https://x.com/Principal_ADE) |
+
+## Product vision
+
+The starting point for the vision is the **"Capturing Codebase Intent"** trail —
+walk it to see where the product is headed:
+<https://app.principal-ade.com/trail/b21c6ffb-a196-4cde-8677-8114fb24d7e8>
+
+## In development (experimental)
+
+**Story-based monitoring** — bridging *intent* into *production* efficiently and
+visually, so a trail's narrative carries through to what's actually running. This
+is the runtime direction of the thesis (trails binding to telemetry; see
+[`company-thesis.md`](../company-thesis.md) §2). **Experimental — not shipped.**
+
+## Open items (to confirm with the founders)
+
+- [ ] Each founder's **role/title** and a one-line **background** bio.
+
+## Updates
+
+- **2026-06-19** — Doc created. Founders, founding story (met at Tech Week SF,
+  Oct 2025; circuit through Austin Tech Week, AI Native Dev, and AI Engineer
+  Summit, Nov 2025), company presence, product-vision trail, and the experimental
+  story-based-monitoring direction captured from the founders directly;
+  GitHub/company facts web-verified. Individual roles/bios left as the open item.

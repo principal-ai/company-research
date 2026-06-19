@@ -39,6 +39,8 @@ Top level is by **research domain** (the fact-sources). The value arguments are
 trails *across* these folders, not folders themselves.
 
 ```
+company/        Principal AI itself — the founders, founding story, public presence.
+                  Facts about the team/company, distinct from the product below.
 product/        Principal AI / Code Trails — what it is and how it's designed.
                   Capabilities and design decisions. Facts about our own product.
 competitors/    One neutral doc per competitor (+ index.md backlog of who to cover).
