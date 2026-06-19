@@ -1,7 +1,7 @@
 ---
 type: product
 title: Code trails — the primitive
-description: A code trail is an ordered set of markers pinned to file+line with reasoning; agent-drafted, human-curated, code-grounded, and persisted as a machine-readable artifact.
+description: A code trail is an ordered set of markers pinned to file+line with reasoning; human-curated, code-grounded, and persisted as a machine-readable artifact.
 volatility: slow
 as_of: 2026-06
 tags: [product, code-trails, primitive]
@@ -23,16 +23,12 @@ carries the reasoning, and an optional source snippet. A marker is one unit of
 intent — a decision, a branch, a handler, an invariant — anchored to the exact
 place in the code it describes.
 
-## Agent-drafted
-
-An agent produces the first draft of a trail, so capture is cheap and scalable —
-it is not gated on a human sitting down to author documentation by hand.
-
 ## Human-curated
 
-An expert shapes the draft and vouches for it: which markers matter, whether the
-reasoning is right, what to cut. The curation step is where a trail becomes
-trusted rather than merely generated.
+An agent produces the first draft — so capture is cheap and scalable, not gated on
+a human authoring documentation by hand — and an expert then shapes the draft and
+vouches for it: which markers matter, whether the reasoning is right, what to cut.
+The curation step is where a trail becomes trusted rather than merely generated.
 
 ## Code-grounded
 

@@ -23,12 +23,12 @@ code that explains a flow, a decision, or an invariant — the answer to a quest
 *is* the path. The full primitive (markers, views, snippets) is described in
 [`code-trails.md`](code-trails.md).
 
-## Three properties
+## Two properties
 
-A code trail is **agent-drafted**, **human-curated**, and **code-grounded**. An
-agent produces the first draft; an expert shapes and vouches for it; every marker
-is pinned to `file:line` so it stays verifiable against source. Each property is
-detailed in [`code-trails.md`](code-trails.md).
+A code trail is **human-curated** and **code-grounded**. An agent drafts it and an
+expert shapes and vouches for it; every marker is pinned to `file:line` so it stays
+verifiable against source. Each property is detailed in
+[`code-trails.md`](code-trails.md).
 
 ## What it produces
 

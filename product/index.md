@@ -17,7 +17,7 @@ inside them.
 ## Has a doc
 
 - [overview.md](overview.md) — what Principal AI / Code Trails is, in one doc.
-- [code-trails.md](code-trails.md) — the trail primitive: markers pinned to file + line, agent-drafted / human-curated / code-grounded.
+- [code-trails.md](code-trails.md) — the trail primitive: markers pinned to file + line, human-curated / code-grounded.
 - [collaboration.md](collaboration.md) — sharing/publishing, anchored feedback, topics, and review flows around trails.
 - [file-city.md](file-city.md) — the visualization layer (files = buildings; 2D map primary, 3D a novelty): renders trails, conveys comprehension coverage, and shows repo activity live + historic for collaboration.
 

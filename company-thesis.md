@@ -16,7 +16,7 @@ tags: [thesis, positioning, working-brief, trails]
 > inside `product/`, `market/`, or `competitors/`, where docs stay neutral. The
 > `market/` and `competitors/` docs it points at now exist; `product/` docs don't yet.
 
-## 1. The thesis (primary): agent-drafted, human-curated, code-grounded intent
+## 1. The thesis (primary): human-curated, code-grounded intent
 
 **The shift.** As AI agents write more of the code, the bottleneck moves off
 *writing* and onto everything around it — and three things are breaking at once:
@@ -32,12 +32,11 @@ tags: [thesis, positioning, working-brief, trails]
   ([`replit-db-deletion-2025.md`](market/replit-db-deletion-2025.md),
   [`veracode-genai-security-2025.md`](market/veracode-genai-security-2025.md)).
 
-**The product.** A **code trail** is **agent-drafted, human-curated,
-code-grounded intent** — an ordered walk of markers, each pinned to file + line,
-with the reasoning attached. Three properties, three jobs:
+**The product.** A **code trail** is **human-curated, code-grounded intent** — an
+ordered walk of markers, each pinned to file + line, with the reasoning attached.
+An agent drafts it cheaply (the commodity step, not gated on human authoring); the
+two load-bearing properties are:
 
-- **agent-drafted** — an agent produces the first draft, so capture is cheap and
-  scalable, not gated on human authoring. (The commodity step.)
 - **human-curated** — an expert shapes and vouches for it: which markers matter,
   whether the reasoning is right. This is where *trust* is created.
 - **code-grounded** — every marker is pinned to file:line, so the intent is
@@ -63,8 +62,8 @@ legible and pointable*:
   the codebase carries its intent forward. (Answers **safety**.)
 
 **One-liner:** *As agents write the code, the scarce thing isn't writing it —
-it's intent you can trust: agent-drafted so it's cheap, human-curated so it's
-right, code-grounded so it stays honest.*
+it's intent you can trust: human-curated so it's right, code-grounded so it stays
+honest.*
 
 ## 2. The OTEL extension — grounding reaches into runtime
 

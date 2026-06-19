@@ -61,7 +61,7 @@ understanding, context — i.e. where the two products touch:
 
 - **Comment-driven design reviews** — real-time human + AI collaboration on design docs, with feedback threaded into agent work (collaboration / human-in-the-loop curation overlap).
 - **QRSPI structured workflows & "Context Engineering"** — codifying how understanding and context are assembled before an agent implements (understanding + context overlap).
-- **Task workspaces / multi-agent orchestration** — agent-drafted work grouped with artifacts and worktrees in shared team spaces (collaboration overlap; adjacent to "agent-drafted, human-curated" framing).
+- **Task workspaces / multi-agent orchestration** — agent-generated work grouped with artifacts and worktrees in shared team spaces (collaboration overlap; adjacent to our "human-curated, code-grounded" framing).
 - **Built on Claude Code** — same underlying agent substrate.
 
 How these compare to Principal's features is a trail concern, recorded there, not
