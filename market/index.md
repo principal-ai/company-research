@@ -31,6 +31,7 @@ External evidence on AI-assisted coding (each doc = one source; cite anchors):
 - [`github-copilot-usage-billing-2026.md`](github-copilot-usage-billing-2026.md) — all plans to token billing; backlash over credit depletion.
 - [`claude-code-rate-limits-2025.md`](claude-code-rate-limits-2025.md) — weekly rate limits, developer backlash, class-action suit.
 - [`claude-code-artifacts-2026.md`](claude-code-artifacts-2026.md) — Claude Code ships shareable, live pages from agent sessions (PR walkthroughs, dashboards, timelines).
+- [`agentic-loops-discourse-2026.md`](agentic-loops-discourse-2026.md) — industry reframes AI coding as designing/supervising loops (inner/middle/outer); human moves author→reviewer; bottleneck moves to the outer loop.
 
 ## Backlog — signals to capture
 

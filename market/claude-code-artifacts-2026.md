@@ -57,6 +57,19 @@ admins control enablement, retention, and audit logging.
 A first-party agent vendor is now treating "how do humans see, share, and sign
 off on what the agent did" as a product surface — annotated PR walkthroughs,
 dashboards, and investigation timelines. That demand is the category Principal
-is built into; the comparison (spatial visualization, signed durable trails,
-team workflow, runtime binding vs. a static shared page) is a **trail**, not an
-argument in this doc.
+is built into.
+
+*Where Principal stands:* the validation is
+real, but the **design of the Artifact limits exactly the shareability and
+composability that trails are built for**. An Artifact is a *static snapshot* — a
+self-contained single page under a strict CSP (no external requests, no backend,
+no routes), so it can't link into other artifacts, bind to live source as code
+moves, or carry runtime/telemetry; it's a frozen render of one session, not a
+composable unit. Its sharing is *org-bounded and read-only* — private to the
+author, viewable (not co-edited), and walled at the organization boundary with no
+external sharing. Trails are the opposite on both axes: **code-grounded** (each
+marker pinned to file:line, so it stays honest as code changes and can carry
+runtime/OTEL), and **composable + curated** (markers compose, trails bundle into
+topics, and a human curates and vouches for them across teams). The fuller
+product comparison lives in a **trail**; the takeaway here is that the Artifact
+validates the demand while showing the ceiling of a snapshot-shaped answer to it.
