@@ -18,7 +18,6 @@ bundles. A dangling link = an investor we intend to research but haven't yet.
 
 - [Restive Ventures](restive-ventures.md) — early-stage fintech VC, SF; pre-seed/seed; AI apps & infra for financial services. Contact: Ben Glenney (Associate).
 - [The Bond Fund](the-bond-fund.md) — early-stage syndicate; seed/Series A; AI SaaS infrastructure layer, B2B SaaS, deep tech; follows. Contact: Anthony Zhang (Strategic Partnerships Lead; GMI Cloud).
-- [LFX Venture Partners](lfx-venture-partners.md) — global supply-chain/logistics/commerce VC (venture arm of Li & Fung); seed/Series A; AI × global commerce, agentic + infra layers. Contact: Heather Lee (Investor).
 - [80 North Angel Fund](80-north-angel-fund.md) — Boston angel fund; pre-seed/seed; AI across B2B (legal/IP, manufacturing, infra); follows. Contact: Chris Combs (Founder; LinkSquares co-founder).
 
 ## Backlog — investors to research
