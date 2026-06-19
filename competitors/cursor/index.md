@@ -35,6 +35,8 @@ end-to-end "AI software factory" spanning code authoring, review, and hosting.
 ## Products (this folder)
 
 - [`editor.md`](editor.md) — the AI-native code editor (a VS Code fork).
+- [`canvas.md`](canvas.md) — agent-rendered interactive visualizations / durable
+  artifacts (shipped in Cursor 3.1, Apr 2026).
 - [`graphite.md`](graphite.md) — AI code review / stacked PRs (acquired Dec 2025).
 - [`origin.md`](origin.md) — agent-native, Git-compatible hosting platform; a
   direct GitHub challenger (announced, targeting fall 2026).
@@ -47,6 +49,12 @@ understanding, review, and team context. The review-as-bottleneck framing
 overlaps Principal's own thesis. How they compare is a **trail** concern.
 
 ## Updates
+
+### 2026-04 · Feature — Canvas ships in Cursor 3.1
+Cursor 3.1 added **Canvas**: the agent renders interactive, React-based
+visualizations (dashboards, diagrams, charts) as durable artifacts alongside the
+terminal, browser, and source control, instead of returning text. See
+[`canvas.md`](canvas.md). Source: https://cursor.com/blog/canvas
 
 ### 2026-06 · Acquisition — SpaceX to acquire Anysphere for $60B
 SpaceX signed an agreement (Agreement and Plan of Merger, June 16, 2026) to
