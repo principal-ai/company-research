@@ -30,6 +30,7 @@ External evidence on AI-assisted coding (each doc = one source; cite anchors):
 - [`cursor-pricing-2025.md`](cursor-pricing-2025.md) — usage-based pricing shift, backlash, apology + refunds.
 - [`github-copilot-usage-billing-2026.md`](github-copilot-usage-billing-2026.md) — all plans to token billing; backlash over credit depletion.
 - [`claude-code-rate-limits-2025.md`](claude-code-rate-limits-2025.md) — weekly rate limits, developer backlash, class-action suit.
+- [`claude-code-artifacts-2026.md`](claude-code-artifacts-2026.md) — Claude Code ships shareable, live pages from agent sessions (PR walkthroughs, dashboards, timelines).
 
 ## Backlog — signals to capture
 

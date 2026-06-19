@@ -39,7 +39,7 @@ intent is captured as a durable artifact rather than living in prose that drifts
 ## How trails are authored and viewed
 
 - **Authored** — an agent drafts a trail; a human curates it. Trails are posted to a local Principal bridge that persists and broadcasts them.
-- **Rendered** — in the **File City** panel, a 3D view of the repository where each marker highlights its building and opens the matching source slice.
+- **Rendered** — in the **File City** panel, a spatial map of the repository (files as buildings) where each marker highlights its building and opens the matching source slice. See [`file-city.md`](file-city.md).
 - **Two flavors** — **investigation** trails (exploratory, laid while figuring something out) and **informative** trails (durable, canonical, shareable).
 - **Topics** — curated bundles of related trails on one subject.
 

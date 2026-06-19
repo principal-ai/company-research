@@ -9,6 +9,7 @@ sources:
   - "Anysphere raised $2.3B at a $29.3B valuation (Nov 2025): https://www.infoworld.com/article/4110558/cursor-owner-anysphere-agrees-to-buy-graphite-code-review-tool.html"
   - "Cursor acquires Graphite (Dec 2025): https://finance.yahoo.com/news/exclusive-cursor-acquires-code-review-153008616.html"
   - "Origin agent-native Git platform (announced): https://vff.ai/article/2026/05/21/cursor-sees-opening-as-github-flounders"
+  - "SpaceX to acquire Anysphere/Cursor for ~$60B (June 16, 2026): https://www.cnbc.com/2026/06/16/-spacex-to-buy-cursor-ai-parent-anysphere-for-60-billion.html"
 note: >
   Company-level facts only — comparison to Principal lives in trails. Per-product
   facts live in the product docs in this folder. Most likely to go stale: Origin's
@@ -46,6 +47,15 @@ understanding, review, and team context. The review-as-bottleneck framing
 overlaps Principal's own thesis. How they compare is a **trail** concern.
 
 ## Updates
+
+### 2026-06 · Acquisition — SpaceX to acquire Anysphere for $60B
+SpaceX signed an agreement (Agreement and Plan of Merger, June 16, 2026) to
+acquire Anysphere/Cursor in an all-stock deal valued at ~$60B; Cursor survives as
+a wholly owned SpaceX subsidiary, with close expected in Q3 2026 pending
+regulatory approval. The deal follows an April 2026 option (≈$10B partnership or
+$60B acquisition) and lands days after Cursor's IPO; it is meant to bolster
+SpaceX's AI division (built around the xAI merger earlier in 2026). Status:
+announced, not closed. Source: https://www.cnbc.com/2026/06/16/-spacex-to-buy-cursor-ai-parent-anysphere-for-60-billion.html
 
 ### 2026-06 · News — Origin positioned against GitHub
 Cursor's Origin (agent-native Git forge) gained attention as GitHub faced

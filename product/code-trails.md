@@ -63,4 +63,4 @@ documentation that stays attached to the thing it documents.
 A trail separates content (markers) from layout (views) so the same markers can
 drive different renderers. v1 ships a **sequence** view — lanes by participant or
 subsystem, ordered edges between markers — rendered in the **File City** panel
-described in [`overview.md`](overview.md).
+described in [`file-city.md`](file-city.md).

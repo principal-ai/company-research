@@ -14,6 +14,7 @@ the product ([`product/`](../product/index.md)) or the outside world
 ## Has a doc
 
 - [founders.md](founders.md) — the three founders (Julie Allen, Michael Flannery, Fernando Ramirez), how they met at Tech Week, the company's public presence, and the product vision.
+- [file-city-tours.md](file-city-tours.md) — public demonstration channel: the File City tour page on X ([@FileCityAI](https://x.com/FileCityAI)) of codebase walkthroughs.
 
 ## Backlog — concepts to write
 
