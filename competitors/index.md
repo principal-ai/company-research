@@ -21,6 +21,7 @@ single-product competitor stays a **flat doc**. See `author-competitor-doc`.
 
 - [Cursor / Anysphere](cursor/index.md) — *folder*: [editor](cursor/editor.md), [Canvas](cursor/canvas.md), [Graphite](cursor/graphite.md), [Origin](cursor/origin.md).
 - [GitHub (Microsoft)](github.md) — the incumbent code platform + Copilot.
+- [GitLab](gitlab.md) — AI-native DevSecOps platform; **Orbit** lifecycle context graph + Duo Agent Platform + agent-scale Git backend.
 - [CodeLayer / HumanLayer](humanlayer.md) — agent-orchestration "AI IDE" on Claude Code; structured human-in-the-loop workflows.
 - [Linear](linear/index.md) — *folder*: work-tracking surface extending into [Agent](linear/agent.md) + [Diffs](linear/diffs.md); ticket → agent → code → review.
 - [Windsurf / Codemaps (Cognition)](windsurf.md) — AI-annotated codebase maps; the closest **File City** analog.
@@ -47,6 +48,7 @@ is a **trail** that walks them. Players to track:
 - **Stagewise** — open-source agentic IDE / agent orchestration. *(no doc yet)*
 - **Cloudflare (?)** — flagged by us as a possible adjacent player; **unverified** which offering is meant (Pages/Workers/R2 are edge hosting, not a Git forge). Clarify the specific product before writing. *(no doc yet)*
 - **[GitHub](github.md)** — the incumbent being measured against.
+- **[GitLab](gitlab.md)** — incumbent's AI-native rival; Next-Gen SCM reframes the repo as queryable project intelligence rather than a clone.
 
 ## Theme: code comprehension & documentation surfaces
 
@@ -65,6 +67,7 @@ interactive page/dashboard:
 navigable maps — the shape **closest to File City**:
 - **[Windsurf Codemaps (Cognition)](windsurf.md)** — AI-annotated maps: code locations + trace guides; Fast/Smart generation. **Most direct File City analog** (have doc).
 - **[Google Code Wiki](google-code-wiki.md)** — Gemini-powered living repo docs + diagrams + Q&A; public preview (have doc).
+- **[GitLab Orbit](gitlab.md)** — lifecycle context graph mapping code + work items + pipelines + production signals into one live queryable graph; public beta (have doc).
 - **Swimm** — documentation pinned to code (already a candidate above).
 - **Sourcegraph** — code search / navigation (already a candidate above).
 
