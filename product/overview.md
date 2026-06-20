@@ -1,7 +1,7 @@
 ---
 type: product
 title: Principal AI / Code Trails — overview
-description: What Principal AI is and what a code trail is — the product that makes a codebase's intent legible and pointable.
+description: What Principal AI is and what a code trail is — the product that makes a codebase's intent clear and grounded.
 volatility: slow
 as_of: 2026-06
 tags: [product, code-trails, overview]
@@ -32,8 +32,8 @@ verifiable against source. Each property is detailed in
 
 ## What it produces
 
-The output is a codebase's intent made **legible** (read the *why*, not just the
-*what*) and **pointable** (each step checks against ground truth in source). The
+The output is a codebase's intent made **clear** (read the *why*, not just the
+*what*) and **grounded** (each step checks against real source). The
 intent is captured as a durable artifact rather than living in prose that drifts.
 
 ## How trails are authored and viewed

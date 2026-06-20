@@ -23,16 +23,16 @@ single-product competitor stays a **flat doc**. See `author-competitor-doc`.
 - [GitHub (Microsoft)](github.md) — the incumbent code platform + Copilot.
 - [CodeLayer / HumanLayer](humanlayer.md) — agent-orchestration "AI IDE" on Claude Code; structured human-in-the-loop workflows.
 - [Linear](linear/index.md) — *folder*: work-tracking surface extending into [Agent](linear/agent.md) + [Diffs](linear/diffs.md); ticket → agent → code → review.
+- [Windsurf / Codemaps (Cognition)](windsurf.md) — AI-annotated codebase maps; the closest **File City** analog.
+- [Google Code Wiki](google-code-wiki.md) — Gemini-powered living repo documentation + Q&A (public preview).
+- [Greptile](greptile.md) — full-codebase AI reviewer on a semantic graph; also a codebase Q&A "expert".
+- [OpenAI Codex (Sites)](codex.md) — agent deploys hosted interactive apps at a workspace URL (preview).
 
 ## Competitor candidates — to write
 
 - [ ] [Sourcegraph](sourcegraph.md) — Cody + Code Search (likely a folder).
 - [ ] [Swimm](swimm.md) — code documentation pinned to code.
 - [ ] [Glean](glean.md) — enterprise "work AI".
-- [ ] [Windsurf / Codemaps (Cognition)](windsurf.md) — AI-annotated codebase maps; the closest **File City** analog (see vertical below).
-- [ ] [OpenAI Codex](codex.md) — "Sites" / dynamic canvases (agent-output artifacts; preview).
-- [ ] [Google Code Wiki](google-code-wiki.md) — AI auto-generated, living repo documentation + Q&A (public preview).
-- [ ] [Greptile](greptile.md) — codebase-aware AI reviewer on a semantic code graph; also a codebase Q&A "expert".
 - [ ] _(add named tools/companies as they surface in research)_
 
 ## Theme: the GitHub-replacement threat
@@ -59,18 +59,18 @@ as its own neutral doc; the Principal comparison is a **trail**. Three sub-shape
 interactive page/dashboard:
 - **[Cursor Canvas](cursor/canvas.md)** — agent-rendered React dashboards/diagrams (have doc).
 - **Claude Code Artifacts** — shareable interactive pages from a session. *(market signal: [claude-code-artifacts-2026](../market/claude-code-artifacts-2026.md))*
-- **OpenAI Codex "Sites" / dynamic canvases** — dashboards/apps shareable by URL; preview. *(no doc yet)*
+- **[OpenAI Codex Sites](codex.md)** — agent deploys hosted interactive apps/dashboards at a workspace URL; preview (have doc).
 
 **(b) Codebase maps / living docs** — the *codebase itself* turned into annotated,
 navigable maps — the shape **closest to File City**:
-- **Windsurf Codemaps (Cognition)** — AI-annotated hierarchical maps: entry points, data flow, call paths, per-node explanations; for onboarding/debugging. **Most direct File City analog.** *(no doc yet — https://cognition.ai/blog/codemaps)*
-- **Google Code Wiki** — Gemini-powered platform that auto-generates and keeps repo documentation current, with conversational Q&A; public preview. *(no doc yet)*
+- **[Windsurf Codemaps (Cognition)](windsurf.md)** — AI-annotated maps: code locations + trace guides; Fast/Smart generation. **Most direct File City analog** (have doc).
+- **[Google Code Wiki](google-code-wiki.md)** — Gemini-powered living repo docs + diagrams + Q&A; public preview (have doc).
 - **Swimm** — documentation pinned to code (already a candidate above).
 - **Sourcegraph** — code search / navigation (already a candidate above).
 
 **(c) Guided code/PR walkthroughs** — *walking a human through changes* in semantic
 order (overlaps Principal's trail-based PR review):
-- **Greptile** — codebase-aware reviewer on a semantic code graph; also a "how does X work" codebase expert. *(no doc yet)*
+- **[Greptile](greptile.md)** — codebase-aware reviewer on a semantic code graph; also a "how does X work" codebase expert (have doc).
 - **[Linear Diffs](linear/diffs.md)** — Guided Reviews group related changes into explained, semantic-order sections; shipped May 28, 2026 (have doc).
 
 Watch this vertical: it's where a snapshot artifact (shape a), a code-grounded map

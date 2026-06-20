@@ -42,15 +42,15 @@ two load-bearing properties are:
 - **code-grounded** — every marker is pinned to file:line, so the intent is
   *verifiable* against real source and staleness surfaces when the code moves.
 
-The result is a codebase's intent made **legible** (read the *why*, not just the
-*what*) and **pointable** (each step checks against ground truth).
+The result is a codebase's intent made **clear** (read the *why*, not just the
+*what*) and **grounded** (each step checks against real source).
 
 **Workflow:** *agents draft it, humans curate it, the code keeps it honest* —
 agent = scale, human = judgment & trust, code = currency. (The same
 draft→curate division is the RLHF pattern, which is why it reinforces act two.)
 
 **The value — one root, three payoffs.** Everything follows from *intent made
-legible and pointable*:
+clear and grounded*:
 
 - **Agent efficiency** — a trail is pre-computed, expert-curated context, so an
   agent skips blind exploration: fewer tokens, fewer wrong turns. (Directly
@@ -178,7 +178,7 @@ bullish investor version without the docs taking a side.
 
 **Primary — "Why Code Trails matters" (utility spine):**
 1. The pressure → `market/` cost + comprehension + safety anchors
-2. The product → `product/code-trails.md`, `product/trail-artifact.md` (intent legible & pointable)
+2. The product → `product/code-trails.md`, `product/trail-artifact.md` (intent clear & grounded)
 3. The payoffs → efficiency / quality / alignment, each tied back to its pressure
 4. The runtime extension → `product/otel-trails.md`, `product/otel-contracts.md` (efficiency reaches into investigation; grounding reaches into telemetry)
 5. The frontier confirms it → `competitors/cursor/`, `competitors/github.md`
