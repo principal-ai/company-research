@@ -28,6 +28,7 @@ single-product competitor stays a **flat doc**. See `author-competitor-doc`.
 - [Google Code Wiki](google-code-wiki.md) — Gemini-powered living repo documentation + Q&A (public preview).
 - [Greptile](greptile.md) — full-codebase AI reviewer on a semantic graph; also a codebase Q&A "expert".
 - [OpenAI Codex (Sites)](codex.md) — agent deploys hosted interactive apps at a workspace URL (preview).
+- [Plannotator (backnotprop)](plannotator.md) — local, OSS human-in-the-loop **plan + code-diff annotation** layer for AI coding agents; feedback routes back to the agent.
 
 ## Competitor candidates — to write
 
@@ -75,6 +76,7 @@ navigable maps — the shape **closest to File City**:
 order (overlaps Principal's trail-based PR review):
 - **[Greptile](greptile.md)** — codebase-aware reviewer on a semantic code graph; also a "how does X work" codebase expert (have doc).
 - **[Linear Diffs](linear/diffs.md)** — Guided Reviews group related changes into explained, semantic-order sections; shipped May 28, 2026 (have doc).
+- **[Plannotator](plannotator.md)** — local OSS plan-review + PR-style diff annotation layer; human annotates the agent's plan/diff and feedback routes back to the agent (have doc).
 
 Watch this vertical: it's where a snapshot artifact (shape a), a code-grounded map
 (shape b), and a guided walkthrough (shape c) converge — and Principal's bet is
