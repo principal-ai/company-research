@@ -36,6 +36,15 @@ Every marker is pinned to `file:line`, so the intent is verifiable against real
 source rather than asserted in prose. When the code moves, the pin lets staleness
 surface instead of silently rotting.
 
+## Authored at the point of need
+
+A trail is authored when someone is investigating a flow or working to understand
+something — at a point of friction or active interest — rather than by documenting
+the whole codebase up front. Coverage therefore concentrates on the parts that are
+complex, intent-dense, or in question, following where attention actually lands.
+The same property makes coverage intentionally non-exhaustive: areas no one has
+needed to understand may carry no trails.
+
 ## A trail is pre-computed, curated context
 
 Because a trail is an ordered, expert-curated walk of the relevant code with the
