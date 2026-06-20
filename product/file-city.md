@@ -38,8 +38,8 @@ the v1 sequence view); see [`code-trails.md`](code-trails.md).
 Beyond a single trail, File City is used to show **comprehension coverage** —
 which parts of the repository are understood, documented, and trail-covered
 versus which are not. Reading the city tells you where intent has been captured
-and where the blank spots are, at the scale of the whole repo rather than one
-file at a time.
+and where the blank spots are — a maintained mental model of the repo, at the
+scale of the whole codebase rather than one file at a time.
 
 ## It visualizes activity — live and historic
 

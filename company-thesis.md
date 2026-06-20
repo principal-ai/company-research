@@ -18,6 +18,13 @@ tags: [thesis, positioning, working-brief, trails]
 
 ## 1. The thesis (primary): human-curated, code-grounded intent
 
+**Slogan:** *Code Trails: a mental-model primitive — human-curated, code-grounded
+intent.* The headline is the **category** (a `mental-model primitive`: a targeted
+unit of understanding that composes as trails aggregate into a maintained mental
+model of the repo); the gloss is the **definition** (the two load-bearing
+properties below). Mental model does not replace *intent* — a trail captures
+intent, and trails aggregate into the mental model.
+
 **The shift.** As AI agents write more of the code, the bottleneck moves off
 *writing* and onto everything around it — and three things are breaking at once:
 

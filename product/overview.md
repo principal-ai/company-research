@@ -35,6 +35,9 @@ verifiable against source. Each property is detailed in
 The output is a codebase's intent made **clear** (read the *why*, not just the
 *what*) and **grounded** (each step checks against real source). The
 intent is captured as a durable artifact rather than living in prose that drifts.
+Each trail is a **mental-model primitive** — a targeted unit of understanding
+that, through topics and File City comprehension coverage, aggregates with others
+into a maintained, shared mental model of the repo.
 
 ## How trails are authored and viewed
 
