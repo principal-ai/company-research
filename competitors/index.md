@@ -21,6 +21,7 @@ single-product competitor stays a **flat doc**. See `author-competitor-doc`.
 
 - [Cursor / Anysphere](cursor/index.md) — *folder*: [editor](cursor/editor.md), [Canvas](cursor/canvas.md), [Graphite](cursor/graphite.md), [Origin](cursor/origin.md).
 - [GitHub (Microsoft)](github.md) — the incumbent code platform + Copilot.
+- [Entire (Entire Inc.)](entire.md) — ex-GitHub CEO Thomas Dohmke's "platform for humans and agents"; **Checkpoints** binds each commit to the agent session that produced it, stored in git history.
 - [GitLab](gitlab.md) — AI-native DevSecOps platform; **Orbit** lifecycle context graph + Duo Agent Platform + agent-scale Git backend.
 - [CodeLayer / HumanLayer](humanlayer.md) — agent-orchestration "AI IDE" on Claude Code; structured human-in-the-loop workflows.
 - [Linear](linear/index.md) — *folder*: work-tracking surface extending into [Agent](linear/agent.md) + [Diffs](linear/diffs.md); ticket → agent → code → review.
@@ -45,11 +46,39 @@ neutral doc; the "who threatens the incumbent, and where Principal fits" argumen
 is a **trail** that walks them. Players to track:
 
 - **[Cursor / Origin](cursor/origin.md)** — agent-native Git forge (announced).
+- **[Entire](entire.md)** — ex-GitHub CEO Thomas Dohmke's "platform for humans and agents"; captures the agent session behind each commit (have doc).
 - **Pierre Computer** — AI-native code platform (Jacob Thornton); claims massive repo-creation throughput. *(no doc yet)*
 - **Stagewise** — open-source agentic IDE / agent orchestration. *(no doc yet)*
 - **Cloudflare (?)** — flagged by us as a possible adjacent player; **unverified** which offering is meant (Pages/Workers/R2 are edge hosting, not a Git forge). Clarify the specific product before writing. *(no doc yet)*
 - **[GitHub](github.md)** — the incumbent being measured against.
 - **[GitLab](gitlab.md)** — incumbent's AI-native rival; Next-Gen SCM reframes the repo as queryable project intelligence rather than a clone.
+
+### Sub-lens: social / open-source collaboration, reinvented for agents
+
+A distinct fight *within* the GitHub-replacement theme — not "rebuild the forge"
+but **rebuild the social and open-source-collaboration layer** (profiles, sharing,
+community, the "why" behind code) for a world where humans and agents work the same
+codebase. This space is **actively contested and freshly funded** as of 2026, and
+GitHub's own former CEO is on both sides of it. Capturing that it exists; the
+players, as facts:
+
+- **[Cursor](cursor/index.md)** — moving into the social layer directly: **public
+  profiles + claimable handles** (lifetime token stats, activity heatmaps, agent
+  runtimes; launched Jun 4, 2026), layered on top of its **Origin** forge play
+  (have doc).
+- **[Entire](entire.md)** — Thomas Dohmke's "platform for humans and agents";
+  binds intent/agent provenance to commits (have doc).
+- **Tangled** — European, **decentralized** "next generation of social coding and
+  collaboration" on Bluesky's AT Protocol; self-hostable "knots", developer-
+  sovereignty pitch; $4.5M seed (byFounders; Bain Capital Crypto, Antler). Notable:
+  **Dohmke is an angel here too**, alongside Tailscale's Avery Pennarun and Mårten
+  Mickos. *(no doc yet)*
+- **[GitHub](github.md)** — the incumbent whose social layer (profiles, stars, PRs,
+  discussions) is the thing being reimagined for the agent era.
+
+Principal's stake here — that a *collaboration primitive* could provide a better
+social-coding interface than GitHub — is an argument, so it lives in a **trail**,
+not in this index.
 
 ## Theme: code comprehension & documentation surfaces
 

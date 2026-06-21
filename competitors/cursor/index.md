@@ -43,10 +43,12 @@ end-to-end "AI software factory" spanning code authoring, review, and hosting.
 
 ## Competitive surface
 
-Cursor's move from editor into **review** (Graphite) and **hosting +
-collaboration** (Origin) pushes it directly into Principal's domain — code
-understanding, review, and team context. The review-as-bottleneck framing
-overlaps Principal's own thesis. How they compare is a **trail** concern.
+Cursor's move from editor into **review** (Graphite), **hosting +
+collaboration** (Origin), and a **social / identity layer** (public profiles +
+claimable handles) pushes it directly into Principal's domain — code
+understanding, review, team context, and now developer-facing social surfaces.
+The review-as-bottleneck framing overlaps Principal's own thesis. How they
+compare is a **trail** concern.
 
 ## Updates
 
@@ -64,6 +66,13 @@ regulatory approval. The deal follows an April 2026 option (≈$10B partnership 
 $60B acquisition) and lands days after Cursor's IPO; it is meant to bolster
 SpaceX's AI division (built around the xAI merger earlier in 2026). Status:
 announced, not closed. Source: https://www.cnbc.com/2026/06/16/-spacex-to-buy-cursor-ai-parent-anysphere-for-60-billion.html
+
+### 2026-06-04 · Feature — Cursor profiles (public developer profiles + handles)
+Cursor launched **public user profiles** with claimable custom **handles**
+(announced by Eric Zakariasson), surfacing lifetime token usage, daily activity
+heatmaps, agent runtimes, and streaks. Community framing was that Cursor is
+"building a social network" / a social layer beyond the editor. Sources:
+https://x.com/ericzakariasson/status/2062584627928388094 · https://digg.com/tech/7io6d6pb
 
 ### 2026-06 · News — Origin positioned against GitHub
 Cursor's Origin (agent-native Git forge) gained attention as GitHub faced
