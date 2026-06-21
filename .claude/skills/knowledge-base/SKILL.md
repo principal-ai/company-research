@@ -1,12 +1,12 @@
 ---
 name: knowledge-base
-description: Guidance for writing and organizing markdown documents in this knowledge-base repo so they stay dependable and work well as a substrate for trails. Use when adding, editing, splitting, or reorganizing docs here — e.g. "add a doc about CompetitorX", "write up our pricing", "where should this fact live", "clean up the investors folder", or whenever authoring KB markdown. These are soft conventions, not enforced rules — lean toward them, don't block on them.
+description: Guidance for writing and organizing markdown documents in this knowledge-base repo so they stay dependable and work well as a substrate for trails. Use when adding, editing, splitting, or reorganizing docs here — e.g. "add a doc about CompetitorX", "write up our pricing", "where should this fact live", "clean up the market folder", or whenever authoring KB markdown. These are soft conventions, not enforced rules — lean toward them, don't block on them.
 ---
 
 # Knowledge Base conventions
 
 This repo is a markdown knowledge base: one repo, many folders, each folder a
-subject area (e.g. `investors/`, `product/`, `competitors/`). The docs here are
+subject area (e.g. `product/`, `competitors/`, `market/`). The docs here are
 the raw material that **trails** thread together to answer real questions — an
 investor-question trail walks markers across `product/` and `competitors/` and
 the *answer is the path*.
@@ -49,7 +49,7 @@ Stable section titles are worth more than perfect prose here.
 The classic wiki rot is the same number in three docs, drifting into three
 different numbers. Give each fact **one canonical home** and link to it from
 everywhere else, rather than restating it. "Our ARR" lives in one place;
-`competitors/` and `investors/` docs link to that place. If you catch yourself
+`competitors/` and `market/` docs link to that place. If you catch yourself
 copying a value, link instead.
 
 ### Make links resolve

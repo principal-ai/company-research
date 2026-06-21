@@ -54,7 +54,6 @@ the evidence stays honest as it updates.
 - **product/** — what Code Trails is and how it's designed
 - **competitors/** — one neutral doc per rival
 - **market/** — dated, sourced external signal
-- **investors/** — thesis + fit, one fund per doc
 
 Each value argument is a trail *across* these folders, not a folder itself.
 

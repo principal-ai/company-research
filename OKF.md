@@ -44,7 +44,7 @@ that matters most: it tells a trail whether the fact is still safe to lean on.
 
 Pick a short, self-explanatory `type`. Working set for this bundle:
 
-`product` · `competitor` · `market-signal` · `investor` · `reference`
+`product` · `competitor` · `market-signal` · `reference`
 
 Extend freely — OKF types are not registered centrally. Keep one type per doc.
 
@@ -61,7 +61,7 @@ a fresh bundle like this is the normal state.
 
 ## Conventions carried over from sister bundles
 
-- **Neutral isolation.** Domain docs (competitor, market-signal, investor) state
+- **Neutral isolation.** Domain docs (competitor, market-signal) state
   facts only. Comparison, positioning, and "why this is valuable" live in
   **trails**, never baked into a doc.
 - **Append-only Updates log.** Entity docs that track a moving target keep an

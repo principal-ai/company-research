@@ -1,7 +1,7 @@
 ---
 okf_version: "0.1"
 title: Company Research — OKF bundle
-description: Research substrate for Principal AI / Code Trails — product, competitors, market, investors — kept pointable so trails can answer "what is this worth?" at any altitude.
+description: Research substrate for Principal AI / Code Trails — product, competitors, market — kept pointable so trails can answer "what is this worth?" at any altitude.
 ---
 
 # Company Research
@@ -45,7 +45,6 @@ product/        Principal AI / Code Trails — what it is and how it's designed.
                   Capabilities and design decisions. Facts about our own product.
 competitors/    One neutral doc per competitor (+ index.md backlog of who to cover).
 market/         Market signals, trends, sizing, external evidence. Heavily dated/sourced.
-investors/      One doc per investor/fund — thesis, what they value, fit. Populated fresh.
 ```
 
 ## The trails this substrate is for
@@ -62,4 +61,4 @@ Each is a value argument at one altitude, threading markers across the folders:
 - **Folder structure:** stood up; each folder has an `index.md` backlog.
 - **Docs:** none yet — corpus is fresh. Backlogs name what's wanted.
 - **Authoring:** competitor docs via the `author-competitor-doc` skill;
-  investor/market docs follow the same shape (see that skill's siblings note).
+  market docs follow the same shape (see that skill's siblings note).

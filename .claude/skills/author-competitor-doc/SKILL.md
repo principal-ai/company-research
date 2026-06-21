@@ -193,11 +193,9 @@ the newest Update vs. `as_of` tells you how fresh the synthesis is.
 
 ## Sibling skills (same shape, when you need them)
 
-This skill is the template for two siblings you'll likely want as the bundle
+This skill is the template for a sibling you'll likely want as the bundle
 grows — same web-verify + dated `## Updates` + neutral-facts discipline, just a
 different `type` and folder:
 
-- **author-investor-doc** → `investors/<slug>.md`, `type: investor` — who they
-  are and what they value; the *case to them* is a trail.
 - **author-market-signal-doc** → `market/<slug>.md`, `type: market-signal` —
   a dated, sourced market fact or trend; what it *means for us* is a trail.

@@ -1,7 +1,7 @@
 ---
 type: index
 title: Company
-description: Facts about Principal AI itself — the founders, the founding story, the company's public presence. The team/company domain, distinct from product, competitors, market, and investors.
+description: Facts about Principal AI itself — the founders, the founding story, the company's public presence. The team/company domain, distinct from product, competitors, and market.
 ---
 
 # Company
