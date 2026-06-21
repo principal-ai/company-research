@@ -32,6 +32,7 @@ External evidence on AI-assisted coding (each doc = one source; cite anchors):
 - [`claude-code-rate-limits-2025.md`](claude-code-rate-limits-2025.md) — weekly rate limits, developer backlash, class-action suit.
 - [`claude-code-artifacts-2026.md`](claude-code-artifacts-2026.md) — Claude Code ships shareable, live pages from agent sessions (PR walkthroughs, dashboards, timelines).
 - [`agentic-loops-discourse-2026.md`](agentic-loops-discourse-2026.md) — industry reframes AI coding as designing/supervising loops (inner/middle/outer); human moves author→reviewer; bottleneck moves to the outer loop.
+- [`sdlc-vibe-coding-whitepaper-2026.md`](sdlc-vibe-coding-whitepaper-2026.md) — Google whitepaper: "generation is solved, verification/judgment is the new craft"; Agent = Model + Harness; vibe→agentic spectrum sorted by verification; spec quality is the new bottleneck.
 
 ## Backlog — signals to capture
 
