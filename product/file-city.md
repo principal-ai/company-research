@@ -46,7 +46,7 @@ scale of the whole codebase rather than one file at a time.
 File City visualizes **activity across the repo**, both **live** (what is being
 worked on or changed now) and **historic** (how activity has moved through the
 codebase over time). Mapping activity onto the spatial layout makes patterns of
-work legible at a glance.
+work clear at a glance.
 
 ## For collaboration
 
