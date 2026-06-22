@@ -31,14 +31,13 @@ Summit** (November 2025).
 
 ## The founders
 
-Three co-founders. _(Individual roles/titles and prior-experience bios are
-to-confirm — not stated here rather than guessed; see the open items below.)_
+Three co-founders.
 
-| Founder | LinkedIn | Other |
-| --- | --- | --- |
-| **Fernando Ramirez** | [in/fernandoramirez-ai](https://www.linkedin.com/in/fernandoramirez-ai/) | GitHub [SquallLeonhart13](https://github.com/SquallLeonhart13) ("Building Quality Software"); X [@Principal_ADE](https://x.com/Principal_ADE) |
-| **Michael Flannery** | [in/michaelflannery25](https://www.linkedin.com/in/michaelflannery25/) | — |
-| **Julie Allen** | [in/flanneryallen](https://www.linkedin.com/in/flanneryallen/) | — |
+| Founder | Role | Bio | LinkedIn | Other |
+| --- | --- | --- | --- | --- |
+| **Fernando Ramirez** | Co-Founder, Architecture | _(to-confirm)_ | [in/fernandoramirez-ai](https://www.linkedin.com/in/fernandoramirez-ai/) | GitHub [SquallLeonhart13](https://github.com/SquallLeonhart13) ("Building Quality Software"); X [@Principal_ADE](https://x.com/Principal_ADE) |
+| **Michael Flannery** | Co-Founder, Go-to-Market | _(to-confirm)_ | [in/michaelflannery25](https://www.linkedin.com/in/michaelflannery25/) | — |
+| **Julie Allen** | Co-Founder, Narrative | Led AI messaging strategy for 80,000 Cisco employees during the ChatGPT transformation, filing 2 granted patents, 3 published applications, and 2 defensive publications across spatial computing and AI collaboration. Certificate in Applied Narrative Intelligence. | [in/flanneryallen](https://www.linkedin.com/in/flanneryallen/) | — |
 
 ## The company
 
@@ -73,10 +72,13 @@ is the runtime direction of the thesis (trails binding to telemetry; see
 
 ## Open items (to confirm with the founders)
 
-- [ ] Each founder's **role/title** and a one-line **background** bio.
+- [ ] Fernando Ramirez's **background** bio.
+- [ ] Michael Flannery's **background** bio.
 
 ## Updates
 
+- **2026-06-22** — Added Julie Allen's role (Co-Founder, Narrative) and background
+  bio from pitch deck. Fernando and Michael's bios remain to-confirm.
 - **2026-06-19** — Doc created. Founders, founding story (met at Tech Week SF,
   Oct 2025; circuit through Austin Tech Week, AI Native Dev, and AI Engineer
   Summit, Nov 2025), company presence, product-vision trail, and the experimental
