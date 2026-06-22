@@ -37,7 +37,7 @@ Three co-founders.
 | --- | --- | --- | --- | --- |
 | **Fernando Ramirez** | Co-Founder, Architecture | _(to-confirm)_ | [in/fernandoramirez-ai](https://www.linkedin.com/in/fernandoramirez-ai/) | GitHub [SquallLeonhart13](https://github.com/SquallLeonhart13) ("Building Quality Software"); X [@Principal_ADE](https://x.com/Principal_ADE) |
 | **Michael Flannery** | Co-Founder, Go-to-Market | _(to-confirm)_ | [in/michaelflannery25](https://www.linkedin.com/in/michaelflannery25/) | — |
-| **Julie Allen** | Co-Founder, Narrative | Led AI messaging strategy for 80,000 Cisco employees during the ChatGPT transformation, filing 2 granted patents, 3 published applications, and 2 defensive publications across spatial computing and AI collaboration. Certificate in Applied Narrative Intelligence. | [in/flanneryallen](https://www.linkedin.com/in/flanneryallen/) | — |
+| **Julie Allen** | Co-founder: Strategy and Communications | Led AI messaging strategy for 80,000 Cisco employees during the ChatGPT transformation, filing 2 granted patents, 3 published applications, and 2 defensive publications across spatial computing and AI collaboration. Certificate in Applied Narrative Intelligence. | [in/flanneryallen](https://www.linkedin.com/in/flanneryallen/) | — |
 
 ## The company
 
