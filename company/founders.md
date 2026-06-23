@@ -7,6 +7,7 @@ as_of: 2026-06-22
 sources:
   - Founders (Fernando Ramirez), direct, 2026-06-19
   - Michael Flannery, self-described (LinkedIn), 2026-06-22
+  - Fernando Ramirez, self-described, 2026-06-22
   - https://github.com/principal-ai
   - https://github.com/principal-ade
 ---
@@ -39,6 +40,19 @@ Three co-founders.
 | **Fernando Ramirez** | Co-Founder, Architecture | _(to-confirm)_ | [in/fernandoramirez-ai](https://www.linkedin.com/in/fernandoramirez-ai/) | GitHub [SquallLeonhart13](https://github.com/SquallLeonhart13) ("Building Quality Software"); X [@Principal_ADE](https://x.com/Principal_ADE) |
 | **Michael Flannery** | Co-Founder, Go-to-Market | _(to-confirm)_ | [in/michaelflannery25](https://www.linkedin.com/in/michaelflannery25/) | — |
 | **Julie Allen** | Co-founder: Strategy and Communications | Led AI messaging strategy for 80,000 Cisco employees during the ChatGPT transformation, filing 2 granted patents, 3 published applications, and 2 defensive publications across spatial computing and AI collaboration. Certificate in Applied Narrative Intelligence. | [in/flanneryallen](https://www.linkedin.com/in/flanneryallen/) | — |
+
+### Fernando Ramirez — background
+
+The technical founder — built the entire Principal AI architecture **from first
+principles**. **Ex-Google and ex-Airbnb**, where he built distributed systems
+serving **hundreds of millions** of users. At Google he reached the **Area 120
+finals** (Google's in-house product incubator) within three months pitching
+causality storage — a **six-year obsession** that became Principal AI.
+Co-inventor on all ten of the company's filed patent applications (see
+[`patents/`](patents/index.md)).
+
+Studied **Computational and Applied Mathematics at Rice University** (graduated
+2015). Earlier in his career, founding engineer at a health-tech startup.
 
 ### Michael Flannery — background
 
@@ -86,12 +100,14 @@ visually, so a trail's narrative carries through to what's actually running. Thi
 is the runtime direction of the thesis (trails binding to telemetry; see
 [`company-thesis.md`](../company-thesis.md) §2). **Experimental — not shipped.**
 
-## Open items (to confirm with the founders)
-
-- [ ] Fernando Ramirez's **background** bio.
-
 ## Updates
 
+- **2026-06-22** — Added Fernando Ramirez's background (technical/architecture
+  founder): ex-Google and ex-Airbnb distributed-systems work serving hundreds of
+  millions; Area 120 finals within three months pitching causality storage; a
+  six-year obsession that became Principal AI; Rice University CAAM (2015);
+  founding engineer at a health-tech startup. Source: Fernando Ramirez (self,
+  direct).
 - **2026-06-22** — Added Michael Flannery's background: role (business —
   customers, go-to-market, revenue), the non-engineer/product-proxy vantage,
   co-inventor on all ten filed patent applications, and prior founder track
