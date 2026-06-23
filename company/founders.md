@@ -3,9 +3,10 @@ type: company
 title: Founders & founding story
 description: How Principal AI started — three founders who met at Tech Week — who they are, the company's public presence, and the product vision they're building toward.
 volatility: evergreen
-as_of: 2026-06-19
+as_of: 2026-06-22
 sources:
   - Founders (Fernando Ramirez), direct, 2026-06-19
+  - Michael Flannery, self-described (LinkedIn), 2026-06-22
   - https://github.com/principal-ai
   - https://github.com/principal-ade
 ---
@@ -38,6 +39,21 @@ Three co-founders.
 | **Fernando Ramirez** | Co-Founder, Architecture | _(to-confirm)_ | [in/fernandoramirez-ai](https://www.linkedin.com/in/fernandoramirez-ai/) | GitHub [SquallLeonhart13](https://github.com/SquallLeonhart13) ("Building Quality Software"); X [@Principal_ADE](https://x.com/Principal_ADE) |
 | **Michael Flannery** | Co-Founder, Go-to-Market | _(to-confirm)_ | [in/michaelflannery25](https://www.linkedin.com/in/michaelflannery25/) | — |
 | **Julie Allen** | Co-founder: Strategy and Communications | Led AI messaging strategy for 80,000 Cisco employees during the ChatGPT transformation, filing 2 granted patents, 3 published applications, and 2 defensive publications across spatial computing and AI collaboration. Certificate in Applied Narrative Intelligence. | [in/flanneryallen](https://www.linkedin.com/in/flanneryallen/) | — |
+
+### Michael Flannery — background
+
+Owns the business side at Principal AI — customers, go-to-market, revenue — and
+is in the product daily, building alongside the team. A **non-engineer by
+design**: works from what the code *does*, not the code itself, which makes him
+the in-house stand-in for the non-technical reader Code Trails is built for.
+Co-inventor on all ten of the company's filed patent applications (see
+[`patents/`](patents/index.md)).
+
+Before Principal AI, a serial founder who has **built and exited multiple
+businesses** — **Ode To Food & Drinks** (Sioux Falls; co-founder & GM,
+2015–2025) and **Zing, Inc.** (co-founder & GM, 2009–2015; grew revenue 6× with
+no paid advertising) — plus **PIRL ("Prove IRL")**, a real-world-progress-to-
+achievements platform now incubating in the studio's portfolio.
 
 ## The company
 
@@ -73,10 +89,17 @@ is the runtime direction of the thesis (trails binding to telemetry; see
 ## Open items (to confirm with the founders)
 
 - [ ] Fernando Ramirez's **background** bio.
-- [ ] Michael Flannery's **background** bio.
 
 ## Updates
 
+- **2026-06-22** — Added Michael Flannery's background: role (business —
+  customers, go-to-market, revenue), the non-engineer/product-proxy vantage,
+  co-inventor on all ten filed patent applications, and prior founder track
+  record (Ode To Food & Drinks, Zing, PIRL). Kept neutral here — the "why this
+  matters" argument is left for a trail. Source: Michael Flannery (self, via
+  LinkedIn). _(Patent count aligned to [`patents/`](patents/index.md) — bio
+  originally said "seven"; the filed-patents doc confirms ten, all three founders
+  as inventors.)_
 - **2026-06-22** — Added Julie Allen's role (Co-Founder, Narrative) and background
   bio from pitch deck. Fernando and Michael's bios remain to-confirm.
 - **2026-06-19** — Doc created. Founders, founding story (met at Tech Week SF,
