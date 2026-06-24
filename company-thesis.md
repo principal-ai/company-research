@@ -2,9 +2,9 @@
 type: reference
 title: Company thesis — working brief
 description: The value thesis for Principal AI / Code Trails — utility primary (efficiency, quality, alignment, incl. OTEL instrumentation + investigation), the compounding data asset as act two — and how it maps onto this bundle's docs + trails.
-timestamp: 2026-06-17
+timestamp: 2026-06-24
 volatility: perishable
-as_of: 2026-06-17
+as_of: 2026-06-24
 tags: [thesis, positioning, working-brief, trails]
 ---
 
@@ -118,21 +118,37 @@ works if they conform to a contract.)
 ("non-conforming telemetry rejected/flagged live"), or both — it changes how the
 capability is described.
 
-## 3. The frontier is moving onto our turf
+## 3. The frontier races to own the loop — and misreads the bottleneck
 
-New competitive signal, and it cuts both ways — validation *and* threat:
+The competitive signal of 2026 is not that rivals are "coming for our space" — it's
+that the whole frontier is racing to **own the entire end-to-end loop**, each from a
+different starting point:
 
-- Cursor (Anysphere) bought **Graphite** and is building **Origin**, with its CEO
-  framing **code review as the emerging bottleneck** as AI scales
-  ([`competitors/cursor/`](competitors/cursor/index.md)). That's our thesis, said
-  by a $29B competitor.
-- **GitHub** is straining under agent-generated load (outages, traffic re-routed
-  to AWS) ([`competitors/github.md`](competitors/github.md)) — evidence the old
-  human-paced collaboration layer doesn't fit an agent-written world.
+- **Cursor** is extending from the editor across review (Graphite) and hosting
+  (Origin) to own *write → run agents → review → merge*
+  ([`competitors/cursor/`](competitors/cursor/index.md)).
+- **GitLab** runs the lifecycle through Duo agents over the **Orbit** context graph
+  and an agent-scale Git backend ([`competitors/gitlab.md`](competitors/gitlab.md)).
+- **Linear** closes *ticket → agent → code → review* from the work-management side
+  ([`competitors/linear/`](competitors/linear/index.md)).
+- **GitHub**, the incumbent loop, strains under agent load — outages, traffic
+  re-routed to AWS ([`competitors/github.md`](competitors/github.md)).
 
-The frontier (editor → review → hosting) is converging on understanding, review,
-and intent — i.e. Principal's domain. Whether that's a moat or a race is a
-**trail** argument, not a fact here.
+It's the same move from every direction: **vertical integration**, with comprehension
+absorbed as a feature inside someone's loop.
+
+**But the frontier misreads the bottleneck.** Its diagnosis is that *review* is the
+constraint, so owning the workflow around review is the way to win. Review is not the
+bottleneck — **intent capture** is, and owning the loop will not solve it. Capturing
+more signals and merging more code cannot recreate a mental model; comprehension comes
+from the **right** curated data, not all the data a context graph accumulates.
+
+**Principal's bet is the opposite move: own the primitive, not the loop.** The code
+trail is the **mental-model primitive** needed to have confidence *wherever your
+software development loop executes* — human-curated so it captures the right intent,
+code-grounded so it stays honest; horizontal and loop-agnostic, not another vertical
+land-grab. Whether owning the primitive beats owning the loop is the **trail**
+argument, not a fact here.
 
 ## 4. Act two: the compounding data asset (the refinery)
 
@@ -188,7 +204,7 @@ bullish investor version without the docs taking a side.
 2. The product → `product/code-trails.md`, `product/trail-artifact.md` (intent clear & grounded)
 3. The payoffs → efficiency / quality / alignment, each tied back to its pressure
 4. The runtime extension → `product/otel-trails.md`, `product/otel-contracts.md` (efficiency reaches into investigation; grounding reaches into telemetry)
-5. The frontier confirms it → `competitors/cursor/`, `competitors/github.md`
+5. The frontier → `competitors/cursor/`, `competitors/gitlab.md`, `competitors/linear/`, `competitors/github.md` (races to own the loop; misreads the bottleneck — §3)
 
 **Act two — "The compounding data asset" (downstream branch):**
 - `product/trail-artifact.md` → reasoning-as-exhaust → the three buyer stories.
