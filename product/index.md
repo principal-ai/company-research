@@ -23,7 +23,7 @@ inside them.
 
 ## Backlog — concepts to write
 
-- [ ] `okf-substrate.md` — OKF as the pointable fact substrate beneath trails.
+- [ ] `okf-substrate.md` — OKF as the anchored-concept substrate beneath trails.
 - [ ] `trail-artifact.md` — a finished trail as a persisted, machine-readable reasoning chain (act-two pivot).
 - [ ] `otel-trails.md` — trails bind to OTEL; markers → instrumentation; investigations ride the trail.
 - [ ] `otel-contracts.md` — contract validation enforces telemetry conforms.

@@ -1,8 +1,8 @@
 # company-research
 
 This is an **OKF** (Open Knowledge Format) bundle — markdown + YAML frontmatter,
-one concept per file, organized so each fact stays *pointable* and trails can
-thread those facts into grounded, auditable answers.
+one concept per file, organized so each concept stays *anchored* and trails can
+thread those concepts into grounded, auditable answers.
 
 👉 **Start with [`index.md`](index.md)** for what this bundle is, how it's
 organized, and the trails it's built to carry. The hard format rules live in

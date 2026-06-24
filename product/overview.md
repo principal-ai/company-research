@@ -54,7 +54,7 @@ code (*where*), and runtime telemetry (*what happened*) on one spine. See
 
 ## Substrate (OKF / knowledge bases)
 
-Trails ride on **pointable facts** — markdown knowledge organized so each fact has
+Trails ride on **anchored concepts** — markdown knowledge organized so each concept has
 a stable, addressable anchor. The substrate discipline is described in
 [`okf-substrate.md`](okf-substrate.md) (not yet written) and this bundle's
 [`OKF.md`](../OKF.md).

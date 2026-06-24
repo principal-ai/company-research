@@ -36,9 +36,9 @@ sources:
 
 Two fields are easy to conflate: **`timestamp`** is OKF's "doc last modified";
 **`as_of`** is our "the claim was true as of." Keep both — they answer different
-questions. In this bundle, where most facts are claims about the world (a
+questions. In this bundle, where most concepts are claims about the world (a
 competitor's funding, a market size, an investor's thesis), `as_of` is the one
-that matters most: it tells a trail whether the fact is still safe to lean on.
+that matters most: it tells a trail whether the concept is still safe to lean on.
 
 ## Type vocabulary
 
@@ -62,7 +62,7 @@ a fresh bundle like this is the normal state.
 ## Conventions carried over from sister bundles
 
 - **Neutral isolation.** Domain docs (competitor, market-signal) state
-  facts only. Comparison, positioning, and "why this is valuable" live in
+  concepts only. Comparison, positioning, and "why this is valuable" live in
   **trails**, never baked into a doc.
 - **Append-only Updates log.** Entity docs that track a moving target keep an
   `## Updates` section (newest first). The body is current truth (rewrite to stay

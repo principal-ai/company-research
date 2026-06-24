@@ -1,7 +1,7 @@
 ---
 okf_version: "0.1"
 title: Company Research — OKF bundle
-description: Research substrate for Principal AI / Code Trails — product, competitors, market — kept pointable so trails can answer "what is this worth?" at any altitude.
+description: Research substrate for Principal AI / Code Trails — product, competitors, market — kept anchored so trails can answer "what is this worth?" at any altitude.
 ---
 
 # Company Research
@@ -13,10 +13,10 @@ competitors, in light of where the market is going, and as an investment.
 The docs here are **not** the deliverable. They're the *substrate*. The
 deliverable is **trails**: a trail is the answer to a real question, and the
 answer *is the path* — an ordered walk of markers, each pinned to one canonical,
-sourced fact in these folders. Because every stop anchors to a pointable fact,
-the answer carries its own evidence and stays honest as the facts update.
+sourced concept in these folders. Because every stop lands on an anchored concept,
+the answer carries its own evidence and stays honest as the concepts update.
 
-So the whole repo is organized around making each fact **pointable**: one
+So the whole repo is organized around making each concept **anchored**: one
 concept per doc, stable heading anchors, one canonical home, a source and an
 as-of date on anything that can rot. That's what lets a trail marker land on
 something solid. Conventions live in
@@ -26,10 +26,10 @@ the hard bundle rules (frontmatter, type vocabulary, conformance) live in
 
 ## Two halves of one mechanism
 
-- **OKF** makes facts pointable — the discipline in `knowledge-base` + `OKF.md`.
-- **Trails** turn pointable facts into grounded, auditable answers. Facts stay
+- **OKF** anchors concepts — the discipline in `knowledge-base` + `OKF.md`.
+- **Trails** turn anchored concepts into grounded, auditable answers. Concepts stay
   **neutral and isolated** in the docs; the comparison, the positioning, the
-  "why this is valuable" lives in the trail — so the same fact base can carry an
+  "why this is valuable" lives in the trail — so the same body of concepts can carry an
   honest internal trail *and* a bullish investor trail without the docs taking a
   side.
 

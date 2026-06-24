@@ -11,7 +11,7 @@ tags: [thesis, positioning, working-brief, trails]
 # Company thesis — working brief
 
 > **Status: working brief, not a fact doc.** This captures an in-progress,
-> deliberately *opinionated* argument and the plan for splitting it into pointable
+> deliberately *opinionated* argument and the plan for splitting it into anchored
 > facts + trails. It takes a side, which is why it lives at the root and **not**
 > inside `product/`, `market/`, or `competitors/`, where docs stay neutral. The
 > `market/` and `competitors/` docs it points at now exist; `product/` docs don't yet.
