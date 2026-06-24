@@ -1,0 +1,214 @@
+{
+  "id": "join-principal-next-developer-informative",
+  "title": "Next developer hire shapes the primitives solving the industry's binding constraint before the category hardens",
+  "summary": "**The problem is real.** Industry discourse converged in 2026 on verification-loop speed as the binding constraint; PR review time up 91% while code quality erodes (cloning up 4x, refactoring down 75%), and a $29B competitor validated the thesis by acquiring Graphite to solve review.\n\n**The technical depth is uncommon.** You're building primitives that don't exist yet — trails as first-class machine-readable reasoning artifacts, File City's spatial codebase renderer, OTEL binding that unifies source and runtime, comprehension coverage tracking — not CRUD over someone else's API; early hire means architecting the schema, not inheriting legacy.\n\n**The upside compounds.** Equity at pre-traction valuation, technical influence over what becomes infrastructure, and working on a product whose usage produces the highest-grade training data (expert reasoning as exhaust) — the earlier you join, the more you capture both equity and the technical foundation.",
+  "purpose": "informative",
+  "kind": "recruiting-pitch",
+  "authoredAt": {
+    "sha": "1453aeb37c2e7239064ee81bd5bddb6f2f5113a3",
+    "ref": "main"
+  },
+  "markers": [
+    {
+      "id": "industry-constraint",
+      "label": "Verification loop is the industry's bottleneck",
+      "sourcePath": "market/verification-loop-2026.md",
+      "description": "Through 2026 practitioners, vendors, and security labs converged: generation is cheap, verification-loop speed is the binding constraint. Teams merge 98% more PRs but review time rose 91%. The dominant cost is reconstructing intent — exactly what Principal targets. You'd be solving the problem the industry just named.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 34,
+        "endLine": 50,
+        "focusLine": 42,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "quality-decline-evidence",
+      "label": "Code quality eroding under AI generation",
+      "sourcePath": "market/gitclear-code-quality-2025.md",
+      "description": "GitClear's 211M line analysis: code cloning up ~4x (8.3% to 12.3%), refactoring down from 25% to under 10%, copy/paste overtook reuse. The comprehension-debt risk is measurable and growing — your work directly addresses the erosion.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 20,
+        "endLine": 30,
+        "focusLine": 21,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "trail-primitive-architecture",
+      "label": "Trails as machine-readable reasoning artifacts",
+      "sourcePath": "product/code-trails.md",
+      "description": "You'd be building a new primitive: trails that separate content (markers pinned to `file:line` with reasoning) from layout (views), persisted as structured, machine-readable reasoning chains. This is infrastructure-tier work — defining the schema that binds intent to code, not tweaking UI over someone else's API.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 54,
+        "endLine": 72,
+        "focusLine": 56,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "file-city-spatial-rendering",
+      "label": "File City's spatial codebase visualization",
+      "sourcePath": "product/file-city.md",
+      "description": "File City maps the repository to a city where files are buildings — a stable spatial shape people hold in mind, not a flat tree. You'd architect the 2D layout engine, trail marker highlighting, comprehension coverage visualization, and live/historic activity rendering. Novel rendering problems, not CRUD.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 20,
+        "endLine": 49,
+        "focusLine": 32,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "otel-runtime-binding",
+      "label": "OTEL binding extends trails into runtime",
+      "sourcePath": "company-thesis.md",
+      "description": "The same trail spine extends from source into runtime by binding markers to OpenTelemetry spans/events — intent, code, and telemetry on one artifact. You'd build the instrumentation derivation from trail markers and the contract validation that keeps telemetry bindings honest. Multi-layer grounding across source and production.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 75,
+        "endLine": 98,
+        "focusLine": 83,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "founding-team",
+      "label": "Experienced founders, ground-floor timing",
+      "sourcePath": "company/founders.md",
+      "description": "Three founders (Julie Allen from Cisco AI strategy with 2 granted patents, Michael Flannery on GTM, Fernando Ramirez on architecture) met at Tech Week October 2025. Pre-traction means equity at early valuation and technical decisions still wide open — you shape the foundation, not inherit someone else's legacy.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 20,
+        "endLine": 42,
+        "focusLine": 22,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "competitive-validation",
+      "label": "Cursor validates thesis at $29B valuation",
+      "sourcePath": "company-thesis.md",
+      "description": "Cursor (Anysphere, $29B) bought Graphite and is building Origin, with its CEO framing code review as the emerging bottleneck. GitHub straining under agent load. You're not building in a vacuum — a heavily-funded competitor just validated the thesis you'd be executing on.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 121,
+        "endLine": 135,
+        "focusLine": 127,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "data-moat-compounds",
+      "label": "Your product usage builds the data moat",
+      "sourcePath": "company-thesis.md",
+      "description": "Because authoring trails is already-useful work, the expert reasoning over code falls out as exhaust — highest-grade training data (process supervision). You're building a product where usage produces the compounding asset. Early hire means you're building both the product and the refinery.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 138,
+        "endLine": 156,
+        "focusLine": 142,
+        "contextLines": 2
+      }
+    }
+  ],
+  "views": [
+    {
+      "kind": "sequence",
+      "markers": [
+        {
+          "markerId": "industry-constraint",
+          "name": "opportunity.market-constraint",
+          "participant": "opportunity"
+        },
+        {
+          "markerId": "quality-decline-evidence",
+          "name": "opportunity.quality-decline",
+          "participant": "opportunity"
+        },
+        {
+          "markerId": "trail-primitive-architecture",
+          "name": "technical.trail-schema",
+          "participant": "technical"
+        },
+        {
+          "markerId": "file-city-spatial-rendering",
+          "name": "technical.file-city-renderer",
+          "participant": "technical"
+        },
+        {
+          "markerId": "otel-runtime-binding",
+          "name": "technical.otel-binding",
+          "participant": "technical"
+        },
+        {
+          "markerId": "founding-team",
+          "name": "company.team-timing",
+          "participant": "company"
+        },
+        {
+          "markerId": "competitive-validation",
+          "name": "company.cursor-validates",
+          "participant": "company"
+        },
+        {
+          "markerId": "data-moat-compounds",
+          "name": "upside.data-moat",
+          "participant": "upside"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "fromEvent": "industry-constraint",
+          "toEvent": "quality-decline-evidence",
+          "label": "evidenced by"
+        },
+        {
+          "id": "e2",
+          "fromEvent": "quality-decline-evidence",
+          "toEvent": "trail-primitive-architecture",
+          "label": "solution"
+        },
+        {
+          "id": "e3",
+          "fromEvent": "trail-primitive-architecture",
+          "toEvent": "file-city-spatial-rendering",
+          "label": "renders in"
+        },
+        {
+          "id": "e4",
+          "fromEvent": "file-city-spatial-rendering",
+          "toEvent": "otel-runtime-binding",
+          "label": "extends to"
+        },
+        {
+          "id": "e5",
+          "fromEvent": "otel-runtime-binding",
+          "toEvent": "founding-team",
+          "label": "built by"
+        },
+        {
+          "id": "e6",
+          "fromEvent": "founding-team",
+          "toEvent": "competitive-validation",
+          "label": "thesis validated"
+        },
+        {
+          "id": "e7",
+          "fromEvent": "trail-primitive-architecture",
+          "toEvent": "data-moat-compounds",
+          "label": "produces"
+        }
+      ],
+      "layout": {
+        "laneOrder": ["opportunity", "technical", "company", "upside"]
+      }
+    }
+  ],
+  "createdAt": "2026-06-22T00:00:00.000Z",
+  "updatedAt": "2026-06-22T00:00:00.000Z",
+  "repositoryPath": "/Users/julieallen/principal-ai/company-research"
+}

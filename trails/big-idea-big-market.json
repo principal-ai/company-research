@@ -1,0 +1,262 @@
+{
+  "id": "principal-big-idea-big-market-informative",
+  "title": "Code Trails: Judgment infrastructure for the $50B market when agents write code",
+  "summary": "**The big idea: Human judgment infrastructure when agents write the code.** Intent made durable, queryable, machine-readable — the substrate every platform needs when agents write code faster than humans comprehend. Not better code review; the missing layer between code (what was built) and purpose (what was meant).\n\n**Big market at inflection point.** GitHub: 180M developers, $1B+ Copilot revenue run-rate, straining under 275M agent commits/week. Developer collaboration market $20B+ (GitHub, GitLab, Atlassian), code intelligence $10B+ (Copilot, Cursor, Tabnine), shifting to verification/judgment as new bottleneck. Google, O'Reilly, industry converged 2026: generation solved, judgment is craft.\n\n**Founders who saw it first.** Three co-founders (Strategy + GTM + Architecture) met Oct 2025, filed 10 patents by Feb 2026, before market discourse hardened. Pre-traction timing with post-category validation ($29B Cursor → $60B SpaceX validates review-as-bottleneck thesis).",
+  "purpose": "informative",
+  "kind": "investment-thesis",
+  "authoredAt": {
+    "sha": "6290f6e3c4d8e59e44d4c9f2b4d1e8f7c3a2b1d0",
+    "ref": "main"
+  },
+  "markers": [
+    {
+      "id": "the-big-idea",
+      "label": "The big idea: Human judgment infrastructure when agents write the code",
+      "sourcePath": "company-thesis.md",
+      "description": "**The positioning:**\nHuman judgment infrastructure for when agents write the code.\n\n**What that means:**\nIntent made durable, queryable, machine-readable. The missing substrate between code (what was built) and purpose (what was meant).\n\n**How it's built:**\n- **Human-curated** — experts shape and vouch for it (judgment, trust)\n- **Code-grounded** — pinned to file:line, verifiable against source\n- **Trails** — ordered walks of markers with reasoning attached\n\n**Why it's infrastructure:**\nEvery platform (GitHub, GitLab, Anthropic, Cursor) needs this layer when agents write code faster than humans comprehend. Not a feature — a substrate.\n\n**Category comparable:**\nGit made version control infrastructure. Docker made containers infrastructure. Principal makes judgment infrastructure.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 19,
+        "endLine": 58,
+        "focusLine": 21,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "market-size-github",
+      "label": "Market scale: 180M developers, $1B+ Copilot revenue",
+      "sourcePath": "competitors/github.md",
+      "description": "**GitHub scale (Octoverse 2025):**\n- 180M+ developers (one new developer every second)\n- 43.2M pull requests merged per month (up 23% YoY)\n- ~1B commits pushed in 2025 (up 25% YoY)\n\n**Copilot revenue:**\n- 4.7M paid subscribers (Jan 2026, 75% YoY growth)\n- ~$10/mo individual, $19/seat business = $600M-1B+ annual run-rate\n- Adopted by 90% of Fortune 100\n\n**Market proof:**\nDevelopers pay for code intelligence at scale. GitHub proves demand; verification bottleneck proves gap.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 29,
+        "endLine": 48,
+        "focusLine": 37,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "market-size-tam",
+      "label": "TAM: $50B+ addressable across three segments",
+      "sourcePath": "company-thesis.md",
+      "description": "**Developer collaboration:** $20B+\nGitHub, GitLab, Atlassian (Jira/Confluence/Bitbucket) — platforms where code + context live.\n\n**Code intelligence:** $10B+\nCopilot ($1B run-rate), Cursor (valued $29B pre-SpaceX), Tabnine, Codeium — AI coding assistants.\n\n**Observability/governance:** $20B+\nDatadog, New Relic, PagerDuty — production understanding and compliance. Trails extend into this via OTEL binding (Patent #3).\n\n**Total addressable: $50B+**\nPrincipal sits at intersection of all three — not replacing them, becoming infrastructure they all need.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 1,
+        "endLine": 30,
+        "focusLine": 15,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "inflection-point",
+      "label": "Market timing: Judgment bottleneck just became visible",
+      "sourcePath": "market/verification-loop-2026.md",
+      "description": "**2026 convergence — industry named the constraint:**\n\nPR review time up 91%, merges up 98%. GitHub straining (275M agent commits/week, 9 outages May 2026).\n\n**Google whitepaper (2026):** Generation solved, judgment is craft.\n\n**O'Reilly, CodeRabbit, Aviator:** Bottleneck is understanding what code was supposed to do.\n\n**Market timing:**\nThe problem became visible in 2026. Principal filed patents Oct 2025-Feb 2026 — before the discourse hardened. Not chasing trend; anticipated it.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 34,
+        "endLine": 62,
+        "focusLine": 42,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "cursor-validates-category",
+      "label": "Category validation: Cursor $29B → $60B on same thesis",
+      "sourcePath": "competitors/cursor/index.md",
+      "description": "**Cursor trajectory:**\nRaised $2.3B at $29B (Nov 2025) → bought Graphite for review (Dec 2025) → CEO framed review as bottleneck → SpaceX acquired for $60B (Jun 2026).\n\n**What it validates:**\nJudgment/review as category-defining opportunity drove a company from $29B to $60B in seven months.\n\n**Principal's advantage:**\nCursor bought review UI (Graphite). Principal owns the judgment primitives — 10 patents covering infrastructure Cursor doesn't have.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 29,
+        "endLine": 68,
+        "focusLine": 32,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "founding-team-composition",
+      "label": "Founding team: Strategy + GTM + Architecture from day one",
+      "sourcePath": "company/founders.md",
+      "description": "**Three co-founders, clear roles:**\n\n**Julie Allen** — Strategy and Communications (Cisco AI messaging strategy for 80K employees, 2 granted patents, narrative intelligence certificate)\n\n**Michael Flannery** — Go-to-Market (distribution, sales, customer acquisition)\n\n**Fernando Ramirez** — Architecture (product, engineering, technical vision)\n\n**Team composition:**\nNot three engineers building a feature. Strategy + GTM + Architecture = company-building team from day one.\n\n**Shared technical ownership:**\nAll three founders listed as inventors on all 10 patents.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 32,
+        "endLine": 40,
+        "focusLine": 35,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "founding-timing",
+      "label": "Founder timing: Saw it first, moved fast",
+      "sourcePath": "company/founders.md",
+      "description": "**Timeline:**\n- Oct 2025: Three founders meet at Tech Week SF\n- Oct-Nov 2025: Conference circuit (Austin Tech Week, AI Native Dev, AI Engineer Summit)\n- Oct 28, 2025: Filed first patent (Context Scaffolding, provisional 63/907,051)\n- By Feb 2026: Filed 10 patents total\n- Jun 2026: Market discourse converged on judgment bottleneck\n\n**Insight:**\nFounders identified the problem and filed patents 8+ months before industry consensus formed. Not reactive — anticipatory. Speed from conviction to IP = execution signal.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 20,
+        "endLine": 30,
+        "focusLine": 22,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "ten-patents-moat",
+      "label": "IP moat: 10 patents filed before category hardens",
+      "sourcePath": "company/patents/index.md",
+      "description": "**10 patent applications covering judgment infrastructure:**\n\nContext scaffolding, continuous supervision, behavioral validation, bidirectional contracts, codebase mining (Intent-First Telemetry), repository gallery, workflow validation, AI-assisted understanding, composable narrative units, code quality orchestration.\n\n**Defensive moat:**\nCompetitors building judgment infrastructure will either license these primitives, work around them (slower), or build inferior versions.\n\n**Timing advantage:**\nNon-provisional patents publish 18 months after filing (2027). Window to build on protected primitives before competitors see the playbook.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 11,
+        "endLine": 25,
+        "focusLine": 11,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "data-moat-compounds",
+      "label": "Compounding moat: Expert reasoning as training data",
+      "sourcePath": "company-thesis.md",
+      "description": "**The mechanic:**\nBecause authoring trails is already-useful work, expert reasoning over code falls out as exhaust.\n\n**Patent #5: Intent-First Telemetry**\nHuman-designed schemas validated against behavioral contracts = structured data suitable for machine learning. Six properties: schema-enforced, pre-structured, context-rich, version-controlled, scenario-tagged, query-ready.\n\n**Why it compounds:**\nMore usage → more expert reasoning data → better trail suggestions → higher quality product → more usage. The reCAPTCHA pattern: labels as byproduct of useful work.\n\n**Strategic value:**\nEarly customers produce the training data that makes the product better for later customers. Moat strengthens over time.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 138,
+        "endLine": 156,
+        "focusLine": 142,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "not-incremental",
+      "label": "Why it's category-defining infrastructure",
+      "sourcePath": "company-thesis.md",
+      "description": "**Not incremental:**\n- Not better code review (that's UI)\n- Not another collaboration tool (that's workflow)\n- Not smarter search (that's retrieval)\n\n**Category-defining infrastructure:**\nHuman judgment when agents write the code. The primitive doesn't exist. Every platform needs it.\n\n**Comparable infrastructure shifts:**\n- Git made version control infrastructure (not just file backup)\n- Docker made containers infrastructure (not just deployment)\n- Terraform made IaC infrastructure (not just scripts)\n- Principal makes judgment infrastructure (not just documentation)",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 1,
+        "endLine": 30,
+        "focusLine": 15,
+        "contextLines": 2
+      }
+    }
+  ],
+  "views": [
+    {
+      "kind": "sequence",
+      "markers": [
+        {
+          "markerId": "the-big-idea",
+          "name": "idea.judgment-infrastructure",
+          "participant": "idea"
+        },
+        {
+          "markerId": "market-size-github",
+          "name": "market.github-scale",
+          "participant": "market"
+        },
+        {
+          "markerId": "market-size-tam",
+          "name": "market.tam-50b",
+          "participant": "market"
+        },
+        {
+          "markerId": "inflection-point",
+          "name": "timing.judgment-bottleneck",
+          "participant": "timing"
+        },
+        {
+          "markerId": "cursor-validates-category",
+          "name": "timing.cursor-validates",
+          "participant": "timing"
+        },
+        {
+          "markerId": "founding-team-composition",
+          "name": "founders.team-composition",
+          "participant": "founders"
+        },
+        {
+          "markerId": "founding-timing",
+          "name": "founders.saw-it-first",
+          "participant": "founders"
+        },
+        {
+          "markerId": "ten-patents-moat",
+          "name": "moat.patent-portfolio",
+          "participant": "moat"
+        },
+        {
+          "markerId": "data-moat-compounds",
+          "name": "moat.data-compounds",
+          "participant": "moat"
+        },
+        {
+          "markerId": "not-incremental",
+          "name": "idea.category-defining",
+          "participant": "idea"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "fromEvent": "the-big-idea",
+          "toEvent": "market-size-github",
+          "label": "addresses"
+        },
+        {
+          "id": "e2",
+          "fromEvent": "market-size-github",
+          "toEvent": "market-size-tam",
+          "label": "scales to"
+        },
+        {
+          "id": "e3",
+          "fromEvent": "market-size-tam",
+          "toEvent": "inflection-point",
+          "label": "at moment when"
+        },
+        {
+          "id": "e4",
+          "fromEvent": "inflection-point",
+          "toEvent": "cursor-validates-category",
+          "label": "validated by"
+        },
+        {
+          "id": "e5",
+          "fromEvent": "cursor-validates-category",
+          "toEvent": "founding-team-composition",
+          "label": "led by"
+        },
+        {
+          "id": "e6",
+          "fromEvent": "founding-team-composition",
+          "toEvent": "founding-timing",
+          "label": "who moved"
+        },
+        {
+          "id": "e7",
+          "fromEvent": "founding-timing",
+          "toEvent": "ten-patents-moat",
+          "label": "built moat"
+        },
+        {
+          "id": "e8",
+          "fromEvent": "ten-patents-moat",
+          "toEvent": "data-moat-compounds",
+          "label": "plus"
+        },
+        {
+          "id": "e9",
+          "fromEvent": "data-moat-compounds",
+          "toEvent": "not-incremental",
+          "label": "creating"
+        }
+      ],
+      "layout": {
+        "laneOrder": ["idea", "market", "timing", "founders", "moat"]
+      }
+    }
+  ],
+  "createdAt": "2026-06-22T00:00:00.000Z",
+  "updatedAt": "2026-06-22T00:00:00.000Z",
+  "repositoryPath": "/Users/julieallen/principal-ai/company-research"
+}

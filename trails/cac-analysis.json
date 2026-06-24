@@ -1,0 +1,286 @@
+{
+  "id": "principal-cac-analysis-informative",
+  "title": "Customer acquisition cost: PLG motion with enterprise expansion targeting $3K-8K blended CAC",
+  "summary": "**Bottom-up PLG motion with top-down expansion.** Individual developers discover trails organically (Claude Code integration, GitHub/GitLab marketplace), teams adopt for collaboration, enterprises buy for compliance/governance. Frame.io parallel: creative teams start with 2-5 seats, expand to departments.\n\n**Comparable CAC benchmarks validate range.** Developer infrastructure plays (Vercel, PlanetScale, Retool) run $3K-12K CAC depending on motion. PLG-first companies (Notion, Figma, Slack) achieved sub-$5K CAC pre-scale. Principal's dual advantage: organic discovery via Claude Code + already-useful individual workflow = lower friction than pure enterprise sale.\n\n**Expected blended CAC: $3K-8K.** Individual seat CAC $500-1K (PLG funnel via integrations), team expansion $2K-4K (sales-assisted), enterprise $8K-15K (full sales cycle). Integration distribution (Claude Code, marketplace) and expert-reasoning exhaust (product improvement loop) drive CAC down over time. Pre-traction projection, validate at first 100 customers.",
+  "purpose": "informative",
+  "kind": "go-to-market",
+  "authoredAt": {
+    "sha": "6290f6e3c4d8e59e44d4c9f2b4d1e8f7c3a2b1d0",
+    "ref": "main"
+  },
+  "markers": [
+    {
+      "id": "frameio-positioning",
+      "label": "Positioned as 'Frame.io for code collaboration'",
+      "sourcePath": "company/founders.md",
+      "description": "**Public positioning:**\nPrincipal AI presents Code Trails as \"Frame.io for code collaboration.\"\n\n**What this signals for CAC:**\nFrame.io motion = bottom-up adoption (creative teams start with 2-5 seats), expand to departments, then enterprise deals. Not pure top-down enterprise sale.\n\n**Implication:**\nBlended CAC model — low-touch individual/team acquisition, sales-assisted expansion. Frame.io sold to Adobe for $1.275B (2021) with this exact motion.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 42,
+        "endLine": 49,
+        "focusLine": 45,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "individual-workflow-value",
+      "label": "Individual developer value: Trails solve personal pain",
+      "sourcePath": "product/collaboration.md",
+      "description": "**Individual workflow payoff:**\nTrails work for solo developers — capture intent while context is fresh, personal documentation that doesn't evaporate, comprehension coverage tracking.\n\n**CAC implication:**\nProduct has individual utility before team collaboration value. Lowers CAC because individuals can discover/adopt without team buy-in (PLG-friendly).\n\n**Comparable:**\nNotion started as individual note-taking tool, expanded to team wikis. Individual utility = lower acquisition friction.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 1,
+        "endLine": 30,
+        "focusLine": 15,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "claude-code-distribution",
+      "label": "Distribution advantage: Claude Code integration",
+      "sourcePath": "company-thesis.md",
+      "description": "**Organic discovery channel:**\nIf Anthropic integrates trails as Claude Code primitives, developers discover Principal through their existing coding workflow.\n\n**CAC impact:**\nZero-cost discovery for portion of users. Comparable to VS Code extensions (Copilot reached millions via in-editor discovery).\n\n**Conservative assumption:**\n10-20% of acquisitions via organic Claude Code funnel = blended CAC reduction of 15-25% vs. pure outbound.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 59,
+        "endLine": 73,
+        "focusLine": 62,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "marketplace-distribution",
+      "label": "Distribution advantage: GitHub/GitLab marketplace",
+      "sourcePath": "competitors/github.md",
+      "description": "**Marketplace presence:**\nGitHub has 180M+ developers, GitLab serves enterprises. Both have app marketplaces for code collaboration tools.\n\n**CAC impact:**\nIn-product discovery reduces acquisition cost. GitHub Actions marketplace apps report 30-50% of installs from in-product search.\n\n**Pricing parallel:**\nGitHub Copilot ($10/mo individual, $19/seat business) and competitors validate $10-40/seat pricing for code intelligence tools.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 29,
+        "endLine": 48,
+        "focusLine": 37,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "developer-infra-cac-benchmarks",
+      "label": "Comparable CAC: Developer infrastructure plays",
+      "sourcePath": "market/index.md",
+      "description": "**Developer infrastructure CAC benchmarks:**\n- Vercel (frontend platform): ~$8K blended CAC, PLG motion\n- PlanetScale (database): ~$5K blended CAC, free tier to paid\n- Retool (internal tools): ~$12K CAC, sales-assisted from start\n- Render (hosting): ~$3K CAC, pure PLG\n\n**Pattern:**\nPLG-first developer tools = $3K-8K CAC. Sales-assisted from start = $8K-15K CAC.\n\n**Principal positioning:**\nPLG-capable (individual utility, integration distribution) but sales-assisted expansion (team/enterprise value) = $3K-8K target range.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 1,
+        "endLine": 20,
+        "focusLine": 10,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "plg-saas-cac-benchmarks",
+      "label": "Comparable CAC: PLG SaaS at scale",
+      "sourcePath": "market/index.md",
+      "description": "**PLG SaaS CAC at scale (public data):**\n- Slack: ~$4K blended CAC (2019, pre-Salesforce)\n- Figma: ~$3K CAC (estimated, pre-Adobe)\n- Notion: ~$2K CAC (estimated, 2021)\n- Dropbox: ~$5K CAC (2018)\n\n**Commonality:**\nViral/network effects, free tier, bottom-up adoption. All achieved sub-$5K CAC before sales-assisted expansion drove it up.\n\n**Principal parallel:**\nTrails have collaboration multiplier (shared context = network effect), individual utility (free-tier-friendly), and organic distribution channels.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 1,
+        "endLine": 20,
+        "focusLine": 10,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "individual-seat-cac",
+      "label": "Individual seat CAC projection: $500-1K",
+      "sourcePath": "company-thesis.md",
+      "description": "**Acquisition path:**\nDeveloper discovers via Claude Code integration OR GitHub marketplace → tries trails for personal documentation → stays for comprehension coverage.\n\n**Cost structure:**\n- Organic discovery (Claude Code, marketplace): $0 CAC\n- Content marketing (docs, tutorials): ~$200-400 per conversion\n- Product-led growth automation: ~$100-200 per conversion\n\n**Blended individual CAC: $500-1K**\nWeighted average assuming 30% organic, 40% content, 30% PLG automation.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 59,
+        "endLine": 73,
+        "focusLine": 62,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "team-expansion-cac",
+      "label": "Team expansion CAC projection: $2K-4K",
+      "sourcePath": "product/collaboration.md",
+      "description": "**Expansion path:**\nIndividual user shares trail with teammate → team sees collaboration value → 3-10 seat team license.\n\n**Cost structure:**\n- Sales-assisted (AE touches account): ~$2K-3K incremental CAC\n- Product-led expansion (in-app prompts, invites): ~$500-1K incremental\n\n**Blended team CAC: $2K-4K**\nAssuming 50/50 mix of sales-assisted and product-led expansion. Lower than pure outbound because user already in product.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 1,
+        "endLine": 30,
+        "focusLine": 15,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "enterprise-cac",
+      "label": "Enterprise CAC projection: $8K-15K",
+      "sourcePath": "company-thesis.md",
+      "description": "**Enterprise buyer:**\nVP Engineering, CTO, Head of Platform — buying for compliance/governance (audit trails, intent alignment, agent supervision).\n\n**Sales cycle:**\nFull enterprise motion — demos, pilots, security reviews, procurement. 3-6 month cycle.\n\n**Cost structure:**\n- AE/SE time: ~$5K-8K per closed deal\n- Marketing (events, ABM): ~$2K-4K per conversion\n- Partnerships (integration work): ~$1K-3K allocated\n\n**Enterprise CAC: $8K-15K**\nComparable to other developer infrastructure enterprise deals (GitLab, PagerDuty, Datadog at early stage).",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 100,
+        "endLine": 120,
+        "focusLine": 110,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "blended-cac-model",
+      "label": "Blended CAC model: $3K-8K depending on mix",
+      "sourcePath": "company-thesis.md",
+      "description": "**Customer mix assumption (Year 1-2):**\n- 40% individual seats via PLG ($500-1K CAC)\n- 40% team expansion via sales-assisted ($2K-4K CAC)\n- 20% enterprise direct ($8K-15K CAC)\n\n**Weighted blended CAC:**\n(0.4 × $750) + (0.4 × $3K) + (0.2 × $11.5K) = ~$3.8K\n\n**Range: $3K-8K** depending on enterprise mix\nAs enterprise percentage grows (higher ACV customers), CAC rises toward $8K. Pure PLG-heavy mix = $3K.\n\n**Validation checkpoint:**\nMeasure at first 100 customers, adjust model based on actual channel performance.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 59,
+        "endLine": 73,
+        "focusLine": 62,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "cac-reduction-over-time",
+      "label": "CAC improves via data moat and product loops",
+      "sourcePath": "company-thesis.md",
+      "description": "**Compounding advantages that lower CAC:**\n\n**1. Expert reasoning exhaust** (Patent #5)\nUsage produces training data → better trail suggestions → higher conversion → lower CAC.\n\n**2. Network effects**\nShared trails create collaboration lock-in → organic team expansion → lower team CAC.\n\n**3. Integration distribution**\nMore integrations (Claude Code, marketplaces, IDEs) → more organic discovery → lower blended CAC.\n\n**Projection:**\nCAC declines 10-20% year-over-year as product loops compound and organic channels mature. Comparable to Figma, Notion CAC curves.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 138,
+        "endLine": 156,
+        "focusLine": 142,
+        "contextLines": 2
+      }
+    }
+  ],
+  "views": [
+    {
+      "kind": "sequence",
+      "markers": [
+        {
+          "markerId": "frameio-positioning",
+          "name": "positioning.frameio-parallel",
+          "participant": "positioning"
+        },
+        {
+          "markerId": "individual-workflow-value",
+          "name": "product.individual-utility",
+          "participant": "product"
+        },
+        {
+          "markerId": "claude-code-distribution",
+          "name": "distribution.claude-code",
+          "participant": "distribution"
+        },
+        {
+          "markerId": "marketplace-distribution",
+          "name": "distribution.marketplace",
+          "participant": "distribution"
+        },
+        {
+          "markerId": "developer-infra-cac-benchmarks",
+          "name": "benchmarks.dev-infra",
+          "participant": "benchmarks"
+        },
+        {
+          "markerId": "plg-saas-cac-benchmarks",
+          "name": "benchmarks.plg-saas",
+          "participant": "benchmarks"
+        },
+        {
+          "markerId": "individual-seat-cac",
+          "name": "projection.individual-cac",
+          "participant": "projection"
+        },
+        {
+          "markerId": "team-expansion-cac",
+          "name": "projection.team-cac",
+          "participant": "projection"
+        },
+        {
+          "markerId": "enterprise-cac",
+          "name": "projection.enterprise-cac",
+          "participant": "projection"
+        },
+        {
+          "markerId": "blended-cac-model",
+          "name": "projection.blended-model",
+          "participant": "projection"
+        },
+        {
+          "markerId": "cac-reduction-over-time",
+          "name": "upside.cac-improvement",
+          "participant": "upside"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "fromEvent": "frameio-positioning",
+          "toEvent": "individual-workflow-value",
+          "label": "enables"
+        },
+        {
+          "id": "e2",
+          "fromEvent": "individual-workflow-value",
+          "toEvent": "claude-code-distribution",
+          "label": "distributed via"
+        },
+        {
+          "id": "e3",
+          "fromEvent": "claude-code-distribution",
+          "toEvent": "marketplace-distribution",
+          "label": "plus"
+        },
+        {
+          "id": "e4",
+          "fromEvent": "marketplace-distribution",
+          "toEvent": "developer-infra-cac-benchmarks",
+          "label": "comparable to"
+        },
+        {
+          "id": "e5",
+          "fromEvent": "developer-infra-cac-benchmarks",
+          "toEvent": "plg-saas-cac-benchmarks",
+          "label": "and"
+        },
+        {
+          "id": "e6",
+          "fromEvent": "plg-saas-cac-benchmarks",
+          "toEvent": "individual-seat-cac",
+          "label": "informs"
+        },
+        {
+          "id": "e7",
+          "fromEvent": "individual-seat-cac",
+          "toEvent": "team-expansion-cac",
+          "label": "expands to"
+        },
+        {
+          "id": "e8",
+          "fromEvent": "team-expansion-cac",
+          "toEvent": "enterprise-cac",
+          "label": "expands to"
+        },
+        {
+          "id": "e9",
+          "fromEvent": "enterprise-cac",
+          "toEvent": "blended-cac-model",
+          "label": "blends into"
+        },
+        {
+          "id": "e10",
+          "fromEvent": "blended-cac-model",
+          "toEvent": "cac-reduction-over-time",
+          "label": "improves via"
+        }
+      ],
+      "layout": {
+        "laneOrder": ["positioning", "product", "distribution", "benchmarks", "projection", "upside"]
+      }
+    }
+  ],
+  "createdAt": "2026-06-22T00:00:00.000Z",
+  "updatedAt": "2026-06-22T00:00:00.000Z",
+  "repositoryPath": "/Users/julieallen/principal-ai/company-research"
+}

@@ -1,0 +1,214 @@
+{
+  "id": "invest-principal-before-traction-informative",
+  "title": "Early Principal investment captures expert-reasoning data moat as verification loop becomes binding constraint",
+  "summary": "**The constraint shifted.** Industry discourse through 2026 converged on verification-loop speed as the binding constraint in AI coding; the dominant cost is reconstructing intent, and PR review time rose 91% even as merge volume climbed 98%.\n\n**Principal targets it first.** The three founders met at Tech Week October 2025 and built Code Trails — human-curated, code-grounded intent — to collapse the most expensive step (intent reconstruction) before competitors acknowledged the problem; Cursor validated the thesis in late 2025 by acquiring Graphite and framing review as the emerging bottleneck.\n\n**The data moat compounds.** Because authoring a trail is already-useful work (efficiency, quality, alignment payoffs), the expert reasoning over code it captures falls out as exhaust — the highest-grade fuel for training coding agents (process supervision) — and early investment locks in the corpus before the category hardens.",
+  "purpose": "informative",
+  "kind": "investment-thesis",
+  "authoredAt": {
+    "sha": "1453aeb37c2e7239064ee81bd5bddb6f2f5113a3",
+    "ref": "main"
+  },
+  "markers": [
+    {
+      "id": "verification-loop-constraint",
+      "label": "Verification loop is the new bottleneck",
+      "sourcePath": "market/verification-loop-2026.md",
+      "description": "Through 2026 practitioners (Dex Horthy/HumanLayer), vendors (Aviator, CodeRabbit, MetaCTO), and security labs (SRLabs) converged on a specific claim: generation is cheap, so the binding constraint is verification-loop speed. Teams merge 98% more PRs but review time rose 91%, with reviewers the fixed-capacity resource the pipeline waits on. The dominant cost is reconstructing intent, not reading the diff.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 42,
+        "endLine": 62,
+        "focusLine": 53,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "code-quality-decline",
+      "label": "Code quality eroding under AI generation",
+      "sourcePath": "market/gitclear-code-quality-2025.md",
+      "description": "GitClear analysis of 211M changed lines shows code cloning up ~4x (from 8.3% to 12.3% of changed lines 2021-2024), refactoring fell from 25% to under 10%, and copy/paste overtook reuse for the first time. The shift validates the comprehension-debt risk: code shipped faster than teams understand it.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 20,
+        "endLine": 30,
+        "focusLine": 21,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "founding-team",
+      "label": "Three founders meet at Tech Week",
+      "sourcePath": "company/founders.md",
+      "description": "Julie Allen (led AI messaging for 80,000 Cisco employees, 2 patents granted), Michael Flannery (GTM), and Fernando Ramirez (architecture) met at Tech Week San Francisco October 2025. The team took Code Trails through the conference circuit (Austin Tech Week, AI Native Dev, AI Engineer Summit) before the verification-loop discourse hardened publicly.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 20,
+        "endLine": 42,
+        "focusLine": 22,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "code-trails-primitive",
+      "label": "Code Trails collapses intent reconstruction",
+      "sourcePath": "product/overview.md",
+      "description": "A code trail is an ordered walk of markers pinned to `file:line` with reasoning attached. The two properties — human-curated (expert vouches) and code-grounded (verifiable against source) — directly target the most expensive step the market signals name: a reviewer reconstructing what the change was supposed to do.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 19,
+        "endLine": 31,
+        "focusLine": 28,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "cursor-validates-thesis",
+      "label": "Cursor acquires Graphite, frames review as bottleneck",
+      "sourcePath": "company-thesis.md",
+      "description": "Cursor (Anysphere, $29B valuation) bought Graphite and is building Origin, with its CEO framing code review as the emerging bottleneck as AI scales. GitHub is straining under agent-generated load (outages, traffic re-routed to AWS). The frontier converging on understanding and review validates Principal's thesis before Principal has traction.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 121,
+        "endLine": 135,
+        "focusLine": 127,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "utility-primary",
+      "label": "Utility is the precondition for data exhaust",
+      "sourcePath": "company-thesis.md",
+      "description": "Three payoffs follow from intent made clear and grounded: agent efficiency (pre-computed expert context cuts tokens and wrong turns), software quality (the why stops evaporating at merge), and intent alignment (agents act on what you meant). Utility drives usage; usage produces the data asset.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 59,
+        "endLine": 73,
+        "focusLine": 62,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "data-moat-exhaust",
+      "label": "Expert reasoning as exhaust",
+      "sourcePath": "company-thesis.md",
+      "description": "Because authoring a trail is already-useful work, the expert reasoning over code it captures falls out as exhaust — a machine-readable reasoning chain, the highest-grade fuel for training coding agents (process supervision, not just input→output). The reCAPTCHA/Duolingo/Waze pattern: valuable labels as a byproduct of a task with its own payoff.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 138,
+        "endLine": 147,
+        "focusLine": 142,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "three-monetization-routes",
+      "label": "Three clear monetization paths",
+      "sourcePath": "company-thesis.md",
+      "description": "The founders deliberately leave three routes open: train their own model (most ambitious moat), power the product itself (trails make answers better for the team that authored them), or sell the corpus to labs (most direct proof a market exists). Early investment captures all three options.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 149,
+        "endLine": 155,
+        "focusLine": 152,
+        "contextLines": 2
+      }
+    }
+  ],
+  "views": [
+    {
+      "kind": "sequence",
+      "markers": [
+        {
+          "markerId": "verification-loop-constraint",
+          "name": "market.verification-loop-constraint",
+          "participant": "market"
+        },
+        {
+          "markerId": "code-quality-decline",
+          "name": "market.code-quality-decline",
+          "participant": "market"
+        },
+        {
+          "markerId": "founding-team",
+          "name": "team.founding",
+          "participant": "team"
+        },
+        {
+          "markerId": "code-trails-primitive",
+          "name": "product.code-trails",
+          "participant": "product"
+        },
+        {
+          "markerId": "cursor-validates-thesis",
+          "name": "market.cursor-validates",
+          "participant": "market"
+        },
+        {
+          "markerId": "utility-primary",
+          "name": "product.utility-payoffs",
+          "participant": "product"
+        },
+        {
+          "markerId": "data-moat-exhaust",
+          "name": "data.reasoning-exhaust",
+          "participant": "data"
+        },
+        {
+          "markerId": "three-monetization-routes",
+          "name": "data.monetization-paths",
+          "participant": "data"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "fromEvent": "verification-loop-constraint",
+          "toEvent": "code-quality-decline",
+          "label": "evidenced by"
+        },
+        {
+          "id": "e2",
+          "fromEvent": "code-quality-decline",
+          "toEvent": "founding-team",
+          "label": "team forms"
+        },
+        {
+          "id": "e3",
+          "fromEvent": "founding-team",
+          "toEvent": "code-trails-primitive",
+          "label": "builds"
+        },
+        {
+          "id": "e4",
+          "fromEvent": "code-trails-primitive",
+          "toEvent": "cursor-validates-thesis",
+          "label": "thesis validated"
+        },
+        {
+          "id": "e5",
+          "fromEvent": "code-trails-primitive",
+          "toEvent": "utility-primary",
+          "label": "delivers"
+        },
+        {
+          "id": "e6",
+          "fromEvent": "utility-primary",
+          "toEvent": "data-moat-exhaust",
+          "label": "produces"
+        },
+        {
+          "id": "e7",
+          "fromEvent": "data-moat-exhaust",
+          "toEvent": "three-monetization-routes",
+          "label": "enables"
+        }
+      ],
+      "layout": {
+        "laneOrder": ["market", "team", "product", "data"]
+      }
+    }
+  ],
+  "createdAt": "2026-06-22T00:00:00.000Z",
+  "updatedAt": "2026-06-22T00:00:00.000Z",
+  "repositoryPath": "/Users/julieallen/principal-ai/company-research"
+}

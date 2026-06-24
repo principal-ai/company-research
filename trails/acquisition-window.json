@@ -1,0 +1,286 @@
+{
+  "id": "principal-acquisition-window-informative",
+  "title": "The acquisition window: Human judgment infrastructure before the category hardens",
+  "summary": "**Four acquirers need judgment infrastructure.** Anthropic (Claude Code needs differentiation beyond generation), Microsoft/GitHub (straining under 275M agent commits/week), GitLab (Orbit validates context-graph thesis but lacks human curation), and Cursor/SpaceX ($60B validates review-as-bottleneck).\n\n**Market converged on judgment as the new craft.** Google whitepaper (2026): generation is solved, verification/judgment is the new craft. Industry sources (O'Reilly, CodeRabbit, Aviator) confirm: the bottleneck is understanding what code was supposed to do, not checking if it works. Principal's 10 patents cover the missing judgment layer.\n\n**Optimal timing captures asymmetric value.** Pre-traction valuation, post-category validation. Acquire before non-provisional patents publish (2027), before competitors build workarounds, and before traction drives price up. Expert reasoning as exhaust (Patent #5: training-ready telemetry) produces compounding data moat — early acquisition captures both judgment infrastructure and the refinery.",
+  "purpose": "informative",
+  "kind": "acquisition-thesis",
+  "authoredAt": {
+    "sha": "6290f6e3c4d8e59e44d4c9f2b4d1e8f7c3a2b1d0",
+    "ref": "main"
+  },
+  "markers": [
+    {
+      "id": "judgment-is-new-craft",
+      "label": "Market signal: Judgment is the new craft",
+      "sourcePath": "market/sdlc-vibe-coding-whitepaper-2026.md",
+      "description": "Google whitepaper (Osmani/Saboo/Kartakis, 2026): generation is solved; verification/judgment is the new craft.\n\nThe shift from writing code to evaluating intent — understanding what was meant vs. what was built.\n\nValidates Principal's thesis: human judgment, not generation speed, is the scarce resource in agentic software development.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 1,
+        "endLine": 30,
+        "focusLine": 15,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "understanding-intent-bottleneck",
+      "label": "The bottleneck is understanding intent",
+      "sourcePath": "market/verification-loop-2026.md",
+      "description": "CodeRabbit (2026-06-19): the real bottleneck in code review is understanding what the change was supposed to do.\n\nO'Reilly (2026-04-15): there's a difference between knowing code works and knowing it does what it's supposed to do.\n\nThe dominant cost is reconstructing intent — exactly what Principal's human-curated, code-grounded trails capture.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 52,
+        "endLine": 62,
+        "focusLine": 54,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "verification-loop-constraint",
+      "label": "Verification loop is industry bottleneck",
+      "sourcePath": "market/verification-loop-2026.md",
+      "description": "Through 2026 practitioners and vendors converged: generation is cheap, verification-loop speed is the binding constraint.\n\nPR review time up 91% while merges up 98%.\n\nEvery major platform (GitHub, GitLab, Cursor) is addressing this — but none own the human judgment primitives Principal has patented.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 34,
+        "endLine": 50,
+        "focusLine": 42,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "ten-patents-judgment-layer",
+      "label": "10 patents cover judgment infrastructure",
+      "sourcePath": "company/patents/index.md",
+      "description": "Ten patent applications filed Oct 2025 through Feb 2026 cover the judgment primitives none of the platforms own:\n\n- Context scaffolding (pre-computed expert context)\n- Continuous architectural supervision (real-time oversight)\n- Behavioral validation (intent-to-runtime binding)\n- Bidirectional contracts (human-agent agreements)\n- Codebase mining (training-ready telemetry)\n\nAll three founders listed as inventors.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 11,
+        "endLine": 25,
+        "focusLine": 11,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "cursor-validates-thesis",
+      "label": "Cursor $29B → $60B validates thesis",
+      "sourcePath": "competitors/cursor/index.md",
+      "description": "Cursor raised $2.3B at $29B valuation (Nov 2025), bought Graphite for code review (Dec 2025), with CEO framing review as the emerging bottleneck.\n\nSix months later SpaceX acquired Cursor for $60B (Jun 2026).\n\nThe thesis Principal targets — judgment/review as constraint — drove a competitor from $29B to $60B in seven months. Market validation at scale.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 29,
+        "endLine": 68,
+        "focusLine": 32,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "why-anthropic-acquires",
+      "label": "Why Anthropic acquires: Claude Code differentiation",
+      "sourcePath": "company-thesis.md",
+      "description": "**What Anthropic gets:**\nTrails as first-class Claude Code primitives — pre-computed expert context (efficiency), human-curated review infrastructure (quality), and intent-alignment layer (safety).\n\n**What Anthropic needs:**\nDifferentiation beyond generation speed. Trails integrate directly as expert context for Claude agents, cutting tokens and wrong turns.\n\n**The data moat:**\nAnthropic captures expert-reasoning training data (Patent #5: training-ready telemetry) for Opus/Sonnet — the judgment exhaust that trains better models.\n\n**Strategic fit:**\nAnthropic needs defensible moat beyond model quality; Principal provides both product differentiation and training-data refinery.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 59,
+        "endLine": 73,
+        "focusLine": 62,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "why-github-acquires",
+      "label": "Why Microsoft/GitHub acquires: Agent-scale infrastructure",
+      "sourcePath": "competitors/github.md",
+      "description": "**What GitHub gets:**\nPrincipal's 10 patents covering verification primitives that make agent-scale collaboration work. The judgment infrastructure human review can't provide at machine pace.\n\n**What GitHub needs:**\n275M AI-agent commits per week, agent PRs surged 325% in six months (4M to 17M), nine outages in May 2026, routing traffic through AWS.\n\n**The problem:**\nGitHub has scale but lacks judgment infrastructure to handle agent pace. Infrastructure is straining; human review can't keep up.\n\n**Strategic fit:**\nMicrosoft needs to defend $7.5B GitHub investment against Cursor/Origin challenge. Principal solves the technical bottleneck blocking agent adoption.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 49,
+        "endLine": 58,
+        "focusLine": 54,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "why-gitlab-acquires",
+      "label": "Why GitLab acquires: Human layer for Orbit",
+      "sourcePath": "competitors/gitlab.md",
+      "description": "**What GitLab gets:**\nExpert-curated trails (the human-in-the-loop Orbit lacks), 10 patents covering verification primitives Orbit doesn't have, and bidirectional contracts that make agents trustworthy.\n\n**What GitLab built:**\nOrbit (public beta Jun 2026) — lifecycle context graph mapping code, work items, pipelines, deployments. Validates Principal's thesis that context matters.\n\n**The gap:**\nOrbit is machine-derived (no human curation) and lacks code grounding. Principal adds the missing human judgment layer.\n\n**Strategic fit:**\nGitLab positioned for agentic era but needs differentiation from GitHub/Cursor. Principal gives them the human-curated layer competitors don't have.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 45,
+        "endLine": 61,
+        "focusLine": 48,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "why-cursor-spacex-acquires",
+      "label": "Why Cursor/SpaceX acquires: Accelerate Origin launch",
+      "sourcePath": "competitors/cursor/index.md",
+      "description": "**What Cursor gets:**\nJudgment infrastructure (the verification primitives Graphite didn't have), 10 patents covering the review/supervision stack, and trails as first-class Origin primitives.\n\n**What Cursor built:**\nBought Graphite for review (Dec 2025), building Origin (agent-native Git forge) targeting fall 2026.\n\n**The acceleration:**\nPrincipal accelerates Origin 12-18 months vs. building in-house. Cursor gets the full judgment stack, not just review UI.\n\n**Strategic fit:**\nSpaceX backing means capital isn't a constraint; strategic acceleration is the gate. Principal is the fastest path to differentiated Origin launch.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 40,
+        "endLine": 51,
+        "focusLine": 46,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "pre-traction-timing",
+      "label": "Pre-traction timing captures asymmetric value",
+      "sourcePath": "company/founders.md",
+      "description": "Three founders met Oct 2025, filed 10 patents by Feb 2026, pre-traction.\n\n**Acquire before:**\n- Non-provisional patents publish (2027), giving competitors visibility into the primitives\n- Traction raises valuation\n- Competitors build workarounds or competing judgment layers\n\n**The window:**\nEarly acquisition captures founders, patents, and product at lower valuation before category hardens. Window closes as patents publish and market recognizes judgment infrastructure as necessary layer.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 20,
+        "endLine": 30,
+        "focusLine": 22,
+        "contextLines": 2
+      }
+    },
+    {
+      "id": "data-moat-acquisition",
+      "label": "Expert reasoning as exhaust: The compounding data moat",
+      "sourcePath": "company-thesis.md",
+      "description": "**The mechanic:**\nBecause authoring trails is already-useful work, expert reasoning over code falls out as exhaust.\n\n**Patent grounding:**\nPatent #5 covers this as 'training-ready telemetry' — human-designed schemas validated against behavioral contracts, producing structured data suitable for machine learning.\n\n**The distinction:**\nConventional telemetry = unstructured byproduct. Training-ready telemetry = designed, validated, semantically structured data product.\n\n**Six properties make it valuable:**\nSchema-enforced, pre-structured, context-rich, version-controlled, scenario-tagged, query-ready.\n\n**The upside:**\nEarly acquisition captures both judgment infrastructure (product) and the refinery (data exhaust that trains better models) before competitors recognize the asset exists. The reCAPTCHA pattern: valuable labels as byproduct of useful work.",
+      "snippet": {
+        "kind": "slice",
+        "startLine": 138,
+        "endLine": 156,
+        "focusLine": 142,
+        "contextLines": 2
+      }
+    }
+  ],
+  "views": [
+    {
+      "kind": "sequence",
+      "markers": [
+        {
+          "markerId": "judgment-is-new-craft",
+          "name": "market.judgment-new-craft",
+          "participant": "market"
+        },
+        {
+          "markerId": "understanding-intent-bottleneck",
+          "name": "market.intent-bottleneck",
+          "participant": "market"
+        },
+        {
+          "markerId": "verification-loop-constraint",
+          "name": "market.verification-constraint",
+          "participant": "market"
+        },
+        {
+          "markerId": "ten-patents-judgment-layer",
+          "name": "principal.ten-patents",
+          "participant": "principal"
+        },
+        {
+          "markerId": "cursor-validates-thesis",
+          "name": "validation.cursor-29b-to-60b",
+          "participant": "validation"
+        },
+        {
+          "markerId": "why-anthropic-acquires",
+          "name": "acquirers.anthropic",
+          "participant": "acquirers"
+        },
+        {
+          "markerId": "why-github-acquires",
+          "name": "acquirers.github",
+          "participant": "acquirers"
+        },
+        {
+          "markerId": "why-gitlab-acquires",
+          "name": "acquirers.gitlab",
+          "participant": "acquirers"
+        },
+        {
+          "markerId": "why-cursor-spacex-acquires",
+          "name": "acquirers.cursor-spacex",
+          "participant": "acquirers"
+        },
+        {
+          "markerId": "pre-traction-timing",
+          "name": "timing.pre-traction-value",
+          "participant": "timing"
+        },
+        {
+          "markerId": "data-moat-acquisition",
+          "name": "timing.data-moat-capture",
+          "participant": "timing"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "fromEvent": "judgment-is-new-craft",
+          "toEvent": "understanding-intent-bottleneck",
+          "label": "manifests as"
+        },
+        {
+          "id": "e2",
+          "fromEvent": "understanding-intent-bottleneck",
+          "toEvent": "verification-loop-constraint",
+          "label": "creates"
+        },
+        {
+          "id": "e3",
+          "fromEvent": "verification-loop-constraint",
+          "toEvent": "ten-patents-judgment-layer",
+          "label": "Principal solves"
+        },
+        {
+          "id": "e4",
+          "fromEvent": "ten-patents-judgment-layer",
+          "toEvent": "cursor-validates-thesis",
+          "label": "thesis validated"
+        },
+        {
+          "id": "e5",
+          "fromEvent": "cursor-validates-thesis",
+          "toEvent": "why-anthropic-acquires",
+          "label": "scenario #1"
+        },
+        {
+          "id": "e6",
+          "fromEvent": "cursor-validates-thesis",
+          "toEvent": "why-github-acquires",
+          "label": "scenario #2"
+        },
+        {
+          "id": "e7",
+          "fromEvent": "cursor-validates-thesis",
+          "toEvent": "why-gitlab-acquires",
+          "label": "scenario #3"
+        },
+        {
+          "id": "e8",
+          "fromEvent": "cursor-validates-thesis",
+          "toEvent": "why-cursor-spacex-acquires",
+          "label": "scenario #4"
+        },
+        {
+          "id": "e9",
+          "fromEvent": "why-anthropic-acquires",
+          "toEvent": "pre-traction-timing",
+          "label": "timing advantage"
+        },
+        {
+          "id": "e10",
+          "fromEvent": "pre-traction-timing",
+          "toEvent": "data-moat-acquisition",
+          "label": "captures"
+        }
+      ],
+      "layout": {
+        "laneOrder": ["market", "principal", "validation", "acquirers", "timing"]
+      }
+    }
+  ],
+  "createdAt": "2026-06-22T00:00:00.000Z",
+  "updatedAt": "2026-06-22T00:00:00.000Z",
+  "repositoryPath": "/Users/julieallen/principal-ai/company-research"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "company-research-onboarding",
+  "title": "Principal AI, explained in our own format",
+  "description": "This is Principal AI, built as an OKF (Open Knowledge Format) knowledge base, the same structure our product uses to make code understandable. The map shows how we've organized what we know. The trails walk the parts worth understanding first. It's two things at once: information about us, and a demonstration of how the format conveys it.",
+  "version": "1.0.0",
+  "repos": [
+    {
+      "id": "pkg:github/principal-ai/company-research",
+      "name": "company-research",
+      "remote": { "host": "github", "owner": "principal-ai", "name": "company-research" }
+    }
+  ],
+  "steps": [
+    {
+      "id": "what-is-this",
+      "title": "What this repository is",
+      "description": "An OKF (Open Knowledge Format) bundle rather than a codebase: markdown with YAML frontmatter, one concept per file. README.md and index.md orient new readers; OKF.md defines the format rules. The top level is organized by research domain, which the next steps walk through.",
+      "focusDirectory": "",
+      "colorMode": "fileTypes",
+      "highlightLayers": [
+        {
+          "id": "rules-files",
+          "name": "Orientation & format",
+          "color": "#F59E0B",
+          "items": [
+            { "path": "README.md", "type": "file" },
+            { "path": "index.md", "type": "file" },
+            { "path": "OKF.md", "type": "file" }
+          ],
+          "opacity": 0.85,
+          "renderStrategy": "fill"
+        }
+      ],
+      "resources": [
+        {
+          "title": "How the Open Knowledge Format can improve data sharing (Google Cloud)",
+          "url": "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": "product",
+      "title": "product/ — Principal AI / Code Trails",
+      "description": "Facts about the product, one concept per document: overview.md as the entry point, code-trails.md for the trail primitive (markers pinned to file and line), collaboration.md for sharing and review, and file-city.md for the visualization layer.",
+      "focusDirectory": "product",
+      "colorMode": "fileTypes",
+      "highlightLayers": [
+        {
+          "id": "product-docs",
+          "name": "Product concepts",
+          "color": "#3B82F6",
+          "items": [
+            { "path": "product/code-trails.md", "type": "file" },
+            { "path": "product/file-city.md", "type": "file" },
+            { "path": "product/collaboration.md", "type": "file" },
+            { "path": "product/overview.md", "type": "file" }
+          ],
+          "opacity": 0.85,
+          "renderStrategy": "fill"
+        }
+      ]
+    },
+    {
+      "id": "competitors",
+      "title": "competitors/ — one document per competitor",
+      "description": "Factual coverage of each competitor. A competitor with two or more products gets a folder with its own index.md (cursor/, linear/); single-product competitors stay as flat documents. The folder index.md lists who is covered, and unresolved links mark competitors intended for coverage but not yet written.",
+      "focusDirectory": "competitors",
+      "colorMode": "fileTypes",
+      "highlightLayers": [
+        {
+          "id": "competitor-folders",
+          "name": "Multi-product competitors (folders)",
+          "color": "#8B5CF6",
+          "items": [
+            { "path": "competitors/cursor", "type": "directory" },
+            { "path": "competitors/linear", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "renderStrategy": "border"
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "title": "market/ — dated, sourced signals",
+      "description": "External evidence on AI-assisted coding: surveys, security reports, incidents, and pricing. The folder is flat, with one document per source and one finding per heading. Every document carries a source and an as-of date, since these facts are perishable and go stale as the market moves.",
+      "focusDirectory": "market",
+      "colorMode": "fileTypes"
+    },
+    {
+      "id": "company",
+      "title": "company/ — Principal AI itself",
+      "description": "Facts about the company as distinct from the product: founders.md covers the three founders and the founding story, and file-city-tours.md documents the public File City tour channel on X. This folder holds the team and company domain, kept separate from product, competitors, and market.",
+      "focusDirectory": "company",
+      "colorMode": "fileTypes"
+    },
+    {
+      "id": "the-thesis",
+      "title": "company-thesis.md — interpretation at the root",
+      "description": "The domain folders hold neutral facts; the interpretation lives at the root in company-thesis.md, a working brief that connects product, competitors, and market into the value argument. It sits at the root, outside the folders, precisely because it takes a position where the folders do not.\n\nNow that you understand the structure, explore the trails to learn about Principal AI and Code Trails — each trail walks through a specific argument by connecting these documents.",
+      "focusDirectory": "",
+      "highlightLayers": [
+        {
+          "id": "thesis-file",
+          "name": "Value argument",
+          "color": "#EF4444",
+          "items": [
+            { "path": "company-thesis.md", "type": "file" }
+          ],
+          "opacity": 0.9,
+          "renderStrategy": "fill"
+        }
+      ]
+    }
+  ]
+}
