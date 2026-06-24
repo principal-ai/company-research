@@ -14,6 +14,7 @@ sources:
   - "LinearB / Dev Interrupted — Dex Horthy on RPI + the Ralph loop (2026-02-17): https://linearb.io/blog/dex-horthy-humanlayer-rpi-methodology-ralph-loop"
   - "Anthropic — 2026 Agentic Coding Trends Report: https://resources.anthropic.com/2026-agentic-coding-trends-report"
   - "DevOps.com — 'The Great Decoupling: Scaling the Outer Loop for the Agentic Era': https://devops.com/the-great-decoupling-scaling-the-outer-loop-for-the-agentic-era/"
+  - "Armin Ronacher — 'The Coming Loop' (2026-06-23): https://lucumr.pocoo.org/2026/6/23/the-coming-loop/"
 ---
 
 # "The loop" — agentic coding reframed as designing & supervising loops (2026)
@@ -90,6 +91,24 @@ sign-off — is still *pre-agentic* and human-paced, so it becomes the binding c
 safely still takes days. The discourse's practical conclusion: leverage now lives in
 the *outer* loop — review, context, and orchestration — not in faster code generation.
 
+## A skeptical voice: looping is fine for throwaway work, dangerous for *lasting* code
+Armin Ronacher's **"The Coming Loop"** (2026-06-23) accepts the same two-loop frame —
+*"There is already an agent loop inside every coding agent… The other loop is the
+harness level loop: the loop outside the agent loop"* — but lands on a warning, not a
+celebration. He's comfortable letting loops run on transformation-shaped, impermanent
+work (porting, performance exploration, security scanning, research) where trial-and-
+error is the point and nothing has to last. What *"does not yet sit well"* with him is
+using the same looping method to write **lasting code**, because today's models produce
+defensive, badly-invarianted code — Karpathy's line that they are *"mortally terrified
+of exceptions"* — patching bad states locally instead of making them impossible. His
+metaphor is the sharpest practitioner statement yet of comprehension debt: *"moving from
+software as a deterministic machine to software as an organism… We treat it, we monitor
+it, we stabilize it, but we do not necessarily comprehend it."* And the part he calls
+most uncomfortable: *"opting out of this fully machine-driven future may not be an
+option"* — competitive speed and security pressure force participation even for the
+reluctant, so the live question becomes not *whether* we loop but how we avoid
+abdicating judgment.
+
 ## Why it's a signal
 The whole industry — practitioners, a $-billion vendor category, and the first-party
 labs — is independently relocating the hard problem of AI coding *off* writing code and
@@ -106,7 +125,8 @@ we **do not subscribe to the over-automation** the loudest version of this conve
 implies. Human oversight in code development is **more valuable than the space is
 currently crediting it** — pushing humans further out of the loop in the name of
 autonomy risks **comprehension debt**: code that ships faster than anyone understands
-it. That debt is already measurable, not hypothetical — falling trust and time lost to
+it — what Ronacher calls software becoming an *organism* we monitor but no longer
+comprehend (see finding above). That debt is already measurable, not hypothetical — falling trust and time lost to
 debugging ([`stack-overflow-survey-2025.md`](stack-overflow-survey-2025.md)), declining
 reuse and rising duplication ([`gitclear-code-quality-2025.md`](gitclear-code-quality-2025.md))
 — and it cashes out as **serious incidents** ([`replit-db-deletion-2025.md`](replit-db-deletion-2025.md))
