@@ -30,6 +30,7 @@ single-product competitor stays a **flat doc**. See `author-competitor-doc`.
 - [Greptile](greptile.md) — full-codebase AI reviewer on a semantic graph; also a codebase Q&A "expert".
 - [OpenAI Codex (Sites)](codex.md) — agent deploys hosted interactive apps at a workspace URL (preview).
 - [Plannotator (backnotprop)](plannotator.md) — local, OSS human-in-the-loop **plan + code-diff annotation** layer for AI coding agents; feedback routes back to the agent.
+- [Sazabi](sazabi.md) — YC AI-native observability ("Datadog for the AI era"); **logs-only** ingestion ("logs are all you need") with an agent that investigates incidents and opens PRs.
 
 ## Competitor candidates — to write
 
